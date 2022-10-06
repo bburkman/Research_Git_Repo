@@ -1,0 +1,328 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{One Page Summary}{2}{section*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Index}{5}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acronyms}{7}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {0}Qualifications}{9}{chapter.0}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.1}Preparation and Degree Plan}{10}{section.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.1}Previous Education}{10}{subsection.0.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.2}Courses Taken}{10}{subsection.0.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.3}Examinations}{11}{subsection.0.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.4}PhD Degree Requirements}{11}{subsection.0.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.5}Fall 2022 Plan}{11}{subsection.0.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.6}Remaining Requirements}{12}{subsection.0.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.7}Plan for Completing Degree}{12}{subsection.0.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.1.8}Committee Members}{12}{subsection.0.1.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}Previous Work}{12}{section.0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Problem}{14}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Application}{14}{subsection.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Datasets}{14}{subsection.1.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Imbalanced Data}{14}{subsection.1.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.4}Tradeoffs}{15}{subsection.1.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Novel Contributions of this Work (Knowledge Gap)}{15}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Lit Review: Crash Analysis}{17}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Journals with Self Description and Rankings}{18}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Articles using Similar Datasets}{20}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Articles on Imbalanced Crash Data}{20}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Ambulances}{20}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}iPhone to Automatically Detect Crash and Call Emergency Services}{20}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Weather}{21}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Lagniappe}{22}{section.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}Significant Authors}{22}{section.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.9}TR\_C Articles on Machine Learning}{22}{section.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.1}Application of articles whose keywords contain {\it machine learning}, {\it deep learning}, or {\it reinforcement learing}}{22}{subsection.2.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.2}Articles whose abstracts refer to imbalanced data}{24}{subsection.2.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.3}Crashes}{24}{subsection.2.9.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Lit Review: Data Cleaning}{25}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Cleaning Techniques Used in Crash Analysis Studies}{26}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Lit Review: Methods for Imbalanced Data}{27}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Algorithm Level Approaches}{29}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Some Papers}{29}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Genetic Algorithms}{29}{subsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Subspace Model}{29}{subsection.4.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Metrics}{29}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}The Problem: Imbalanced Data Set}{29}{subsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Standard Metrics}{30}{subsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Balanced Precision and Balanced F1 in the Penalty Function}{30}{subsection.4.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Balanced Precision in the Literature}{31}{subsection.4.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.5}Balanced Accuracy}{31}{subsection.4.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.6}Balanced Precision}{32}{subsection.4.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.7}Balancing Two Metrics: F1 and Gmean}{33}{subsection.4.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{F1 Metric}{33}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gmean}{33}{section*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Loss Functions}{34}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Binary Cross-Entropy Loss Function}{34}{subsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Class Weights and $\alpha $-weighted Loss}{34}{subsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Oversampling}{35}{subsection.4.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.4}Na\"{i}ve Oversampling}{35}{subsection.4.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.5}Class Weights v/s Na\"{i}ve Oversampling: They're the Same}{35}{subsection.4.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.6}Focal Loss}{35}{subsection.4.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.7}Optimizing $F_\beta $}{36}{subsection.4.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.8}Tree-Based Methods}{36}{subsection.4.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.9}$\alpha $-weighted Binary Cross-Entropy Loss Function as Ethical Tradeoff}{36}{subsection.4.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Matrix}{37}{section*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Switching between Binary and Continuous}{37}{section*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Scenario}{38}{section*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Binary $h_\theta $}{38}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Continuous $h_\theta $}{38}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Why are these equivalent?}{38}{section*.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Emphasis in Our Work}{39}{section*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Data Level Methods}{39}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Imbalanced Cleaning: Tomek and Condensed Nearest Neighbor}{39}{subsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Tomek's Links}{40}{subsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Algorithm for Repeated Application of Tomek's Links}{41}{section*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Cleaning Multiclass Data}{42}{subsection.4.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.4}Random Oversampling}{42}{subsection.4.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.5}Undersampling}{42}{subsection.4.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.6}SMOTE: Synthetic Minority Oversampling TEchnique}{43}{subsection.4.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.7}Flavors of SMOTE}{44}{subsection.4.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.8}Oversampling Image Data}{45}{subsection.4.4.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.9}Train/Test Split}{45}{subsection.4.4.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.10}Feature Selection}{46}{subsection.4.4.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Bagging and Boosting}{46}{section.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Bagging}{46}{section*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Boosting}{46}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Lit Review: Medium.com {\it Towards Data Science} Articles}{47}{section.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Lit Review: Datasets}{49}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Crash Datasets}{50}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Jargon to Understand}{50}{subsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}IRB, SHRP Database}{50}{subsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}NGSIM Database}{50}{subsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Datasets with Imbalanced Data}{51}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Datasets, Annotated}{51}{subsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Articles using These Datasets}{51}{subsection.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Database Repositories}{51}{subsection.5.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Lit Review: Seminal and Interesting Papers}{53}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Seminal Papers}{54}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Review Papers}{54}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Chawla}{54}{subsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Chabbouh 2019}{55}{subsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Mahmudah 2021}{55}{subsection.6.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Examples of Good Writing, Models to Follow}{55}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Elassad 2020}{55}{subsection.6.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}CRSS Dataset}{57}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}CRSS Overview}{58}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}CRSS Data Files}{58}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}CRSS Features (178 Features)}{59}{section.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Imputed Features to Use ($10 \times 2 = 20$ Features)}{59}{subsection.7.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Features to Use with No Missing or Unknown Values (13 Features)}{60}{subsection.7.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Features to Use with Unknown Values to Impute (12 Features)}{61}{subsection.7.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.4}CRSS Internal Features for Merging the ACCIDENT, VEHICLE, and PERSON Data Files (3 Features)}{61}{subsection.7.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.5}CRSS Imputed Features to Not Use, Except as a Control for our Imputation Method ($17\times 2 = 34$ Features)}{61}{subsection.7.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.6}Other Features to Not Use (94 Features)}{62}{subsection.7.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}CRSS Binning}{62}{section.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}CRSS Imputing Unknown Values: To Do}{64}{section.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}CRSS Feature Engineering: To Do}{64}{section.7.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.7}Papers using CRSS: To Do}{64}{section.7.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.8}Papers Imputing Unknown Values in CRSS: To Do}{64}{section.7.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Louisiana Dataset}{65}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Overview}{66}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Properties}{66}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Boolean Nature of our Data}{66}{subsection.8.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}Top Twenty Features that Correlate with Fatality}{66}{subsection.8.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Thoughts on our Data Set: Trees}{67}{section.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Times}{67}{section.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.1}New Features}{67}{subsection.8.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.2}Misspellings}{68}{subsection.8.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.3}Dirty Data}{68}{subsection.8.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.4}Strange Data}{68}{subsection.8.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.5}Ambulance Call within/after 5 min after Crash}{68}{subsection.8.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.6}Hospitalized}{68}{subsection.8.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Methods and Experimental Results To Date (Louisiana Dataset)}{69}{chapter.9}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}scikit-learn}{70}{section.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Focal Loss and Tomek}{70}{section.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.1}Different Values of $p$ with $\gamma _1=0$, $\gamma _2=0$}{71}{subsection.9.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.2}Fixed $p=88.8$, Different values of $\gamma _1$ and $\gamma _2$}{71}{subsection.9.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.3}Tomek}{71}{subsection.9.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.4}Discussion}{72}{subsection.9.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Feature Engineering}{72}{section.9.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.1}Time of Day}{72}{subsection.9.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.2}Number of Fatalities/Injuries}{72}{subsection.9.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.3}Day of Week}{73}{subsection.9.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.4}Time of Day}{74}{subsection.9.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.5}Location}{75}{subsection.9.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.6}Parish/Road Names}{75}{subsection.9.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Research Plan}{77}{chapter.10}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Progress To Date}{78}{section.10.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Goals}{78}{section.10.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.1}CRSS Data Set}{78}{subsection.10.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.2}Paper for {\it Transportation Research Part C: Emerging Technologies}}{78}{subsection.10.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.3}Louisiana Data Set}{78}{subsection.10.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.4}Write Dissertation}{79}{subsection.10.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.3}Timeline}{79}{section.10.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{80}{section*.19}%

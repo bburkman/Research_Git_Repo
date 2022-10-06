@@ -1,0 +1,79 @@
+%%%%%
+\section{CRSS Binning}
+
+Model building is more efficient and effective if the number of categories in each feature is reasonably small, with ``reasonably'' being fuzzy, but ten is a good target.  If some of the categories are essentially the same, it is better to bin (merge) them together, especially if some of the categories are very small.  
+
+In the \acrfull{crss} data set, all of the features we plan to use are categorical, and most have a small number of categories.  The features for Age, Vehicle make, Vehicle model, Model year, and Vehicle body type each have more than fifty categories.  Some of them (age, model year) are ordered, and the rest are not.  To identify ``similar'' categories, I looked at how each category correlated with the target variable, being taken to a hospital.  
+
+First I binned the HOSPITAL feature into a binary feature.  A few steps later I will get to imputing unknown values, but at this stage I binned the ``Not Reported'' and ``Reported as Unknown'' in the vastly majority category, ``Not Transported.''
+
+\
+
+\hfil\begin{tabular}{llrl}
+	Original & Bin & Number of & Meaning \cr
+	Code & & Samples & \cr\hline
+	0 & 0 & 522,801 & Not Transported \cr
+	1 & 1 & 2,549 & EMS Air \cr
+	2 & 1 & 605 & Law Enforcement \cr
+	3 & 1 & 30,368 & EMS Unknown Mode \cr
+	4 & 1 & 8,926 & Transported Unknown Source \cr
+	5 & 1 & 61,162 & EMS Ground \cr
+	6 & 1 & 4,341 & Other \cr
+	8 & 0 & 12,447 & Not Reported \cr
+	9 & 0 & 1,075 & Reported as Unknown \cr	
+	\cr
+	All & 0 & 536,323 & 83.24\% \cr
+	& 1 & 107,951 & 16.76\% \cr
+\end{tabular}
+
+\
+
+Then for each value in AGE, I found the percentage of samples with that value and the percentage of samples of that value who were transported to a hospital.  A part of the results is in the table below.  
+
+Note the big shifts between ages 14, 15, 16, and 17, suggesting that we should split the bins at 14/15 and 16/17.  
+
+\begin{longtable}{ll p{0pt}@{\hspace{-.5\arrayrulewidth}}ccc}
+	&  \multicolumn{3}{r}{Value} & Percent of & Percent with \cr
+	& & && Samples with & this Value \cr
+	&&&& this Value & Hospitalized \cr \hline
+	 & \verb|AGE_IM| & 10 & 10 & 0.53 & 16.58 \cr
+	 & \verb|AGE_IM| & 11 & 11 & 0.51 & 15.51 \cr
+	 & \verb|AGE_IM| & 12 & 12 & 0.52 & 16.54 \cr
+	 & \verb|AGE_IM| & 13 & 13 & 0.54 & 16.72 \cr
+	 & \verb|AGE_IM| & 14 & 14 & 0.63 & 17.56 \cr
+	 & \verb|AGE_IM| & 15 & 15 & 0.88 & 15.21 \cr
+	 & \verb|AGE_IM| & 16 & 16 & 1.65 & 13.46 \cr
+	 & \verb|AGE_IM| & 17 & 17 & 2.18 & 14.25 \cr
+	 & \verb|AGE_IM| & 18 & 18 & 2.65 & 14.41 \cr
+	 & \verb|AGE_IM| & 19 & 19 & 2.67 & 15.47 \cr
+	 & \verb|AGE_IM| & 20 & 20 & 2.58 & 14.91 \cr
+\end{longtable}
+
+\
+
+\begin{longtable}{ll p{0pt}@{\hspace{-.5\arrayrulewidth}}ccc}
+	&  \multicolumn{3}{r}{Value} & Percent of & Percent with \cr
+	& & && Samples with & this Value \cr
+	&&&& this Value & Hospitalized \cr \hline
+	 & \verb|AGE_IM| & 21 & 21 & 2.51 & 15.65 \cr
+	 & \verb|AGE_IM| & 22 & 22 & 2.56 & 15.43 \cr
+	 & \verb|AGE_IM| & 23 & 23 & 2.44 & 15.57 \cr
+	 & \verb|AGE_IM| & 24 & 24 & 2.38 & 16.01 \cr
+	 & \verb|AGE_IM| & 25 & 25 & 2.37 & 15.50 \cr
+	 & \verb|AGE_IM| & 26 & 26 & 2.29 & 15.80 \cr
+	 & \verb|AGE_IM| & 27 & 27 & 2.23 & 15.63 \cr
+	 & \verb|AGE_IM| & 28 & 28 & 2.18 & 16.16 \cr
+	 & \verb|AGE_IM| & 29 & 29 & 2.10 & 16.21 \cr
+	 & \verb|AGE_IM| & 30 & 30 & 1.99 & 16.08 \cr
+	 & \verb|AGE_IM| & 31 & 31 & 1.90 & 15.63 \cr
+	 & \verb|AGE_IM| & 32 & 32 & 1.79 & 15.87 \cr
+	 & \verb|AGE_IM| & 33 & 33 & 1.78 & 16.11 \cr
+	 & \verb|AGE_IM| & 34 & 34 & 1.74 & 15.55 \cr
+	 & \verb|AGE_IM| & 35 & 35 & 1.72 & 16.17 \cr
+	 & \verb|AGE_IM| & 36 & 36 & 1.65 & 15.53 \cr
+	 & \verb|AGE_IM| & 37 & 37 & 1.58 & 15.46 \cr
+	 & \verb|AGE_IM| & 38 & 38 & 1.57 & 16.14 \cr
+	 & \verb|AGE_IM| & 39 & 39 & 1.53 & 14.87 \cr
+	 & \verb|AGE_IM| & 40 & 40 & 1.46 & 16.32 \cr
+\end{longtable}
+
