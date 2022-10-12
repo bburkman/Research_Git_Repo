@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  5 OCT 2022 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  11 OCT 2022 06:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1744,48 +1744,48 @@ Chapter 7.
 (./CRSS/CRSS_Features.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `math shift' on input line 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\times' on input line 5.
+(hyperref)                removing `\times' on input line 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 5.
+(hyperref)                removing `math shift' on input line 6.
 
 
-Overfull \hbox (8.2709pt too wide) in paragraph at lines 17--17
+Overfull \hbox (8.2709pt too wide) in paragraph at lines 18--18
 []|\OT1/cmr/m/n/10.95 ``Unknown''| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []|\OT1/cmr/m/n/10.95 Vehicle Body Type
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []|\OT1/cmr/m/n/10.95 [98, 99,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []|\OT1/cmr/m/n/10.95 [9998,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 \OT1/cmr/m/n/10.95 Within In-ter-change
  []
 
 
-Overfull \hbox (3.46556pt too wide) in alignment at lines 14--29
+Overfull \hbox (3.46556pt too wide) in alignment at lines 15--30
  [] [] [] [] [] [] [] 
  []
 
 [59]
-Underfull \hbox (badness 2351) in paragraph at lines 44--44
+Underfull \hbox (badness 2351) in paragraph at lines 45--45
 []|\OT1/cmr/m/n/10.95 Number of Parked/-Work-ing
  []
 
@@ -1795,213 +1795,226 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [60]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 92.
+(hyperref)                removing `math shift' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\times' on input line 92.
+(hyperref)                removing `\times' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 92.
+(hyperref)                removing `math shift' on input line 93.
 
 
-Overfull \hbox (8.2709pt too wide) in paragraph at lines 101--101
+Overfull \hbox (8.2709pt too wide) in paragraph at lines 102--102
 []|\OT1/cmr/m/n/10.95 ``Unknown''| 
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 103--103
+Underfull \hbox (badness 7851) in paragraph at lines 104--104
 []|\OT1/cmr/m/n/10.95 Alcohol In-volved in
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 111--111
+Underfull \hbox (badness 5652) in paragraph at lines 112--112
 []|\OT1/cmr/m/n/10.95 Manner of Col-li-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []|\OT1/cmr/m/n/10.95 Maximum In-jury
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []|\OT1/cmr/m/n/10.95 Number In-jured in
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 117--117
+Underfull \hbox (badness 5847) in paragraph at lines 118--118
 []|\OT1/cmr/m/n/10.95 Pre-Event Move-ment
  []
 
 [61]) (./CRSS/CRSS_Binning.tex [62]
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 39--39
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 37--37
 []|\OT1/cmr/m/n/10.95 10| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 40--40
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 38--38
 []|\OT1/cmr/m/n/10.95 11| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 41--41
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 39--39
 []|\OT1/cmr/m/n/10.95 12| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 42--42
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10.95 13| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 43--43
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 41--41
 []|\OT1/cmr/m/n/10.95 14| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 44--44
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 42--42
 []|\OT1/cmr/m/n/10.95 15| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 45--45
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 43--43
 []|\OT1/cmr/m/n/10.95 16| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 46--46
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 44--44
 []|\OT1/cmr/m/n/10.95 17| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 47--47
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 45--45
 []|\OT1/cmr/m/n/10.95 18| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 48--48
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 46--46
 []|\OT1/cmr/m/n/10.95 19| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 49--49
+Overfull \hbox (10.95001pt too wide) in paragraph at lines 47--47
 []|\OT1/cmr/m/n/10.95 20| 
  []
 
 [63]
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 58--58
-[]|\OT1/cmr/m/n/10.95 21| 
+[]|\OT1/cmr/m/n/10.95 44| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 59--59
-[]|\OT1/cmr/m/n/10.95 22| 
+[]|\OT1/cmr/m/n/10.95 45| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 60--60
-[]|\OT1/cmr/m/n/10.95 23| 
+[]|\OT1/cmr/m/n/10.95 46| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 61--61
-[]|\OT1/cmr/m/n/10.95 24| 
+[]|\OT1/cmr/m/n/10.95 47| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 62--62
-[]|\OT1/cmr/m/n/10.95 25| 
+[]|\OT1/cmr/m/n/10.95 48| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 63--63
-[]|\OT1/cmr/m/n/10.95 26| 
+[]|\OT1/cmr/m/n/10.95 49| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 64--64
-[]|\OT1/cmr/m/n/10.95 27| 
+[]|\OT1/cmr/m/n/10.95 50| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 65--65
-[]|\OT1/cmr/m/n/10.95 28| 
+[]|\OT1/cmr/m/n/10.95 51| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 66--66
-[]|\OT1/cmr/m/n/10.95 29| 
+[]|\OT1/cmr/m/n/10.95 52| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 67--67
-[]|\OT1/cmr/m/n/10.95 30| 
+[]|\OT1/cmr/m/n/10.95 53| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 68--68
-[]|\OT1/cmr/m/n/10.95 31| 
+[]|\OT1/cmr/m/n/10.95 54| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 69--69
-[]|\OT1/cmr/m/n/10.95 32| 
+[]|\OT1/cmr/m/n/10.95 55| 
  []
 
 
 Overfull \hbox (10.95001pt too wide) in paragraph at lines 70--70
-[]|\OT1/cmr/m/n/10.95 33| 
+[]|\OT1/cmr/m/n/10.95 56| 
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 71--71
-[]|\OT1/cmr/m/n/10.95 34| 
+Underfull \hbox (badness 2035) in paragraph at lines 83--83
+[]|\OT1/cmr/m/n/10.95 Two Wheel Mo-tor-cy-cle (ex-clud-ing mo-tor
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 72--72
-[]|\OT1/cmr/m/n/10.95 35| 
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/10.95 Unknown light ve-hi-cle type (au-to-mo-
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 73--73
-[]|\OT1/cmr/m/n/10.95 36| 
+Underfull \hbox (badness 1418) in paragraph at lines 95--95
+[]|\OT1/cmr/m/n/10.95 Station Wagon (ex-clud-ing van and truck
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 74--74
-[]|\OT1/cmr/m/n/10.95 37| 
+Underfull \hbox (badness 1616) in paragraph at lines 98--98
+\OT1/cmr/m/n/10.95 a-van, Grand Car-a-van, Voy-ager, Voy-ager,
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 75--75
-[]|\OT1/cmr/m/n/10.95 38| 
+Underfull \hbox (badness 2142) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10.95 Single-unit straight truck or Cab-Chassis
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 76--76
-[]|\OT1/cmr/m/n/10.95 39| 
+Underfull \hbox (badness 2142) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/10.95 Single-unit straight truck or Cab-Chassis
  []
 
 
-Overfull \hbox (10.95001pt too wide) in paragraph at lines 77--77
-[]|\OT1/cmr/m/n/10.95 40| 
+Overfull \hbox (0.94633pt too wide) in alignment at lines 79--110
+ [] [] [] [] [] [] 
  []
 
-) [64]
+[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Overfull \hbox (2.25137pt too wide) in paragraph at lines 132--133
+\OT1/cmr/m/n/10.95 Pickup, Mit-subishi Truck, Dat-sun/Nis-san Pickup, Ar-row Pi
+ckup, Scamp, Toy-ota Pickup,
+ []
+
+) (./CRSS/CRSS_Imputing.tex [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+[68]) [69] [70
+
+]
 Chapter 8.
-[65
-
-] (./Louisiana/Louisiana_Dataset_Overview.tex)
+[71] (./Louisiana/Louisiana_Dataset_Overview.tex)
 (./Louisiana/Louisiana_Dataset_Properties.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-[67]) [68]
+ [72]
+[73]) [74]
 Chapter 9.
-[69
+[75
 
 ] (./Methods/Scikit-Learn.tex) (./Methods/Focal_Loss_and_Tomek.tex
 
@@ -2047,7 +2060,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
- [70]
+ [76]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 45.
@@ -2088,9 +2101,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 45.
 
-[71]) (./Methods/Feature_Engineering.tex
-<../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.png, id=16
-95, 409.53pt x 263.98625pt>
+[77]) (./Methods/Feature_Engineering.tex
+<../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.png, id=17
+58, 409.53pt x 263.98625pt>
 File: ../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.png G
 raphic file (type png)
 <use ../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.png>
@@ -2107,7 +2120,7 @@ Underfull \hbox (badness 1831) in paragraph at lines 32--32
 []\OT1/cmr/m/n/10.95 Figure 9.1: []Number of
  []
 
-<../../../Fall_2021/699/Keras//12_04_21_Images/n_Severe_DAY_OF_WK.png, id=1697,
+<../../../Fall_2021/699/Keras//12_04_21_Images/n_Severe_DAY_OF_WK.png, id=1760,
  433.62pt x 289.08pt>
 File: ../../../Fall_2021/699/Keras//12_04_21_Images/n_Severe_DAY_OF_WK.png Grap
 hic file (type png)
@@ -2125,7 +2138,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 41--41
 \OT1/cmr/m/n/10.95 vere In-jury Crashes, by
  []
 
-<../../../Fall_2021/699/Keras//12_04_21_Images/p_Severe_DAY_OF_WK.png, id=1698,
+<../../../Fall_2021/699/Keras//12_04_21_Images/p_Severe_DAY_OF_WK.png, id=1761,
  433.62pt x 289.08pt>
 File: ../../../Fall_2021/699/Keras//12_04_21_Images/p_Severe_DAY_OF_WK.png Grap
 hic file (type png)
@@ -2143,10 +2156,10 @@ Underfull \hbox (badness 1400) in paragraph at lines 50--50
 \OT1/cmr/m/n/10.95 Crashes with Se-vere In-
  []
 
-[72] [73 <../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.p
+[78] [79 <../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.p
 ng> <../../../Fall_2021/699/Keras//12_04_21_Images/n_Severe_DAY_OF_WK.png> <../
 ../../Fall_2021/699/Keras//12_04_21_Images/p_Severe_DAY_OF_WK.png>]
-<../../../Fall_2021/699/Keras/12_04_21_Images/n_Weekday_by_Hour.png, id=1714, 4
+<../../../Fall_2021/699/Keras/12_04_21_Images/n_Weekday_by_Hour.png, id=1777, 4
 33.62pt x 289.08pt>
 File: ../../../Fall_2021/699/Keras/12_04_21_Images/n_Weekday_by_Hour.png Graphi
 c file (type png)
@@ -2159,7 +2172,7 @@ Overfull \hbox (5.42114pt too wide) in paragraph at lines 76--77
  [][] 
  []
 
-<../../../Fall_2021/699/Keras/12_04_21_Images/p_Weekday_by_Hour.png, id=1715, 4
+<../../../Fall_2021/699/Keras/12_04_21_Images/p_Weekday_by_Hour.png, id=1778, 4
 33.62pt x 289.08pt>
 File: ../../../Fall_2021/699/Keras/12_04_21_Images/p_Weekday_by_Hour.png Graphi
 c file (type png)
@@ -2173,7 +2186,7 @@ Overfull \hbox (5.42114pt too wide) in paragraph at lines 85--86
  []
 
 <../../../Fall_2021/699/Keras/12_04_21_Images/Interstate_Crash_Percentage_by_Ho
-ur.png, id=1716, 433.62pt x 289.08pt>
+ur.png, id=1779, 433.62pt x 289.08pt>
 File: ../../../Fall_2021/699/Keras/12_04_21_Images/Interstate_Crash_Percentage_
 by_Hour.png Graphic file (type png)
 <use ../../../Fall_2021/699/Keras/12_04_21_Images/Interstate_Crash_Percentage_b
@@ -2187,7 +2200,7 @@ Overfull \hbox (5.42114pt too wide) in paragraph at lines 106--107
  []
 
 <../../../Fall_2021/699/Keras/12_04_21_Images/City_Street_Crash_Percentage_by_H
-our.png, id=1717, 433.62pt x 289.08pt>
+our.png, id=1780, 433.62pt x 289.08pt>
 File: ../../../Fall_2021/699/Keras/12_04_21_Images/City_Street_Crash_Percentage
 _by_Hour.png Graphic file (type png)
 <use ../../../Fall_2021/699/Keras/12_04_21_Images/City_Street_Crash_Percentage_
@@ -2203,7 +2216,7 @@ Overfull \hbox (5.42114pt too wide) in paragraph at lines 115--116
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74 <../../../Fall_2021/699/Keras/12_04_21_Images/n_Weekday_by_Hour.png> <../.
+ [80 <../../../Fall_2021/699/Keras/12_04_21_Images/n_Weekday_by_Hour.png> <../.
 ./../Fall_2021/699/Keras/12_04_21_Images/p_Weekday_by_Hour.png> <../../../Fall_
 2021/699/Keras/12_04_21_Images/Interstate_Crash_Percentage_by_Hour.png> <../../
 ../Fall_2021/699/Keras/12_04_21_Images/City_Street_Crash_Percentage_by_Hour.png
@@ -2215,12 +2228,12 @@ fea-ture, [][]\OT1/cmtt/m/n/10.95 PARISH_CD_and_PRI_ROAD_NAME[]\OT1/cmr/m/n/10.
 95 . 
  []
 
-[75]) [76]
+[81]) [82]
 Chapter 10.
-[77
+[83
 
-] (./Plan/Progress.tex) (./Plan/Goals.tex [78]) (./Plan/Timeline.tex)
-[79] [80
+] (./Plan/Progress.tex) (./Plan/Goals.tex [84]) (./Plan/Timeline.tex)
+[85] [86
 
 ]
 Overfull \hbox (1.34734pt too wide) in paragraph at lines 279--279
@@ -2230,7 +2243,7 @@ doi . org / 10 . 1016 / j . trc . 2020 . 102777$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
 iencedirect .
  []
 
-[81]
+[87]
 Overfull \hbox (5.65869pt too wide) in paragraph at lines 279--279
 []\OT1/cmr/m/n/10.95 Leo Breiman. In: \OT1/cmr/m/it/10.95 Ma-chine Learn-ing \O
 T1/cmr/m/n/10.95 24 (1996). \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1
@@ -2238,20 +2251,20 @@ T1/cmr/m/n/10.95 24 (1996). \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : []$\OT1
 0.95 . 
  []
 
-[82] [83] [84] [85]
+[88] [89] [90] [91]
 Overfull \hbox (4.79643pt too wide) in paragraph at lines 279--279
 \OT1/cmtt/m/n/10.95 1504$[]\OT1/cmr/m/n/10.95 . \OT1/cmr/m/sc/10.95 url\OT1/cmr
 /m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / www . sciencedirect . com / sci
 ence / article / pii / S002200009791504X$[]\OT1/cmr/m/n/10.95 . 
  []
 
-[86] [87]
+[92] [93]
 Overfull \hbox (10.35231pt too wide) in paragraph at lines 279--279
 \OT1/cmtt/m/n/10.95 classification -[] machine -[] learning -[] models -[] for 
 -[] an -[] imbalanced -[] dataset -[] fdae1af3677f$[]
  []
 
-[88] [89] [90] [91] [92] [93]
+[94] [95] [96] [97] [98] [99]
 Overfull \hbox (1.34734pt too wide) in paragraph at lines 279--279
 \OT1/cmr/m/sc/10.95 doi\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / 
 doi . org / 10 . 1016 / j . trc . 2021 . 103310$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
@@ -2259,7 +2272,7 @@ doi . org / 10 . 1016 / j . trc . 2021 . 103310$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
 iencedirect .
  []
 
-[94]
+[100]
 Overfull \hbox (1.34734pt too wide) in paragraph at lines 279--279
 \OT1/cmr/m/sc/10.95 doi\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / 
 doi . org / 10 . 1016 / j . trc . 2021 . 103119$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
@@ -2267,7 +2280,7 @@ doi . org / 10 . 1016 / j . trc . 2021 . 103119$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
 iencedirect .
  []
 
-[95] [96] [97] [98] [99]
+[101] [102] [103] [104] [105]
 Overfull \hbox (1.34734pt too wide) in paragraph at lines 279--279
 \OT1/cmr/m/sc/10.95 doi\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / 
 doi . org / 10 . 1016 / j . trc . 2021 . 103415$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
@@ -2275,7 +2288,7 @@ doi . org / 10 . 1016 / j . trc . 2021 . 103415$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
 iencedirect .
  []
 
-[100]
+[106]
 Overfull \hbox (16.29381pt too wide) in paragraph at lines 279--279
 \OT1/cmtt/m/n/10.95 103321$[]\OT1/cmr/m/n/10.95 . \OT1/cmr/m/sc/10.95 url\OT1/c
 mr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / www . sciencedirect . com / s
@@ -2289,14 +2302,14 @@ Overfull \hbox (18.11891pt too wide) in paragraph at lines 279--279
 {
  []
 
-[101]
+[107]
 Overfull \hbox (4.41568pt too wide) in paragraph at lines 279--279
 \OT1/cmr/m/n/10.95 rithm for im-bal-anced data clas-si-fi-ca-tion''. In: \OT1/c
 mr/m/it/10.95 Knowledge-Based Sys-tems \OT1/cmr/m/n/10.95 216 (2021), p. 106800
 .
  []
 
-[102]
+[108]
 Overfull \hbox (1.34734pt too wide) in paragraph at lines 279--279
 \OT1/cmr/m/sc/10.95 doi\OT1/cmr/m/n/10.95 : []$\OT1/cmtt/m/n/10.95 https : / / 
 doi . org / 10 . 1016 / j . trc . 2020 . 102849$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
@@ -2304,26 +2317,26 @@ doi . org / 10 . 1016 / j . trc . 2020 . 102849$[]\OT1/cmr/m/n/10.95 . \OT1/cmr
 iencedirect .
  []
 
-[103] (./Burkman_Prospectus_09_21_22.aux)
+[109] (./Burkman_Prospectus_09_21_22.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Burkman_Prospectus_09_21_22.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: 20D035D6975EB7FB8AFF24D041DF17BF;28270.
+(rerunfilecheck)             Checksum: 31B58EC31C921643F0ECB8C99A285D17;28940.
 Package logreq Info: Writing requests to 'Burkman_Prospectus_09_21_22.run.xml'.
 
 \openout1 = `Burkman_Prospectus_09_21_22.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46930 strings out of 478994
- 993320 string characters out of 5858184
- 1828277 words of memory out of 5000000
- 63099 multiletter control sequences out of 15000+600000
+ 46992 strings out of 478994
+ 994318 string characters out of 5858184
+ 1830309 words of memory out of 5000000
+ 63141 multiletter control sequences out of 15000+600000
  414204 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,11n,116p,1603b,1638s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,11n,116p,1603b,1654s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -2343,10 +2356,10 @@ ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 21/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/202
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Burkman_Prospectus_09_21_22.pdf (103 pages, 536999 bytes).
+Output written on Burkman_Prospectus_09_21_22.pdf (109 pages, 550326 bytes).
 PDF statistics:
- 2611 PDF objects out of 2984 (max. 8388607)
- 2449 compressed objects within 25 object streams
- 520 named destinations out of 1000 (max. 500000)
- 1264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2679 PDF objects out of 2984 (max. 8388607)
+ 2510 compressed objects within 26 object streams
+ 537 named destinations out of 1000 (max. 500000)
+ 1296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

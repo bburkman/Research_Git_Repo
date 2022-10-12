@@ -208,3 +208,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{smri}{}%
+{%
+\gls@defglossaryentry{smri}%
+{%
+name={SMRI},%
+sort={SMRI},%
+type={acronym},%
+first={Sequential Regression Multivariate Imputation\glsspace (SMRI)},%
+firstplural={Sequential Regression Multivariate Imputations\glsspace (SMRIs)},%
+text={SMRI},%
+plural={SMRIs},%
+description={Sequential Regression Multivariate Imputation},%
+descriptionplural={Sequential Regression Multivariate Imputation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sequential Regression Multivariate Imputation},%
+longplural={Sequential Regression Multivariate Imputations},%
+short={SMRI},%
+shortplural={SMRIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

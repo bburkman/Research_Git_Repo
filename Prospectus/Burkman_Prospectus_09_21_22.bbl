@@ -5730,6 +5730,7 @@
       \strng{authorbibnamehash}{481546ea38046e818db580498d8d0b75}
       \strng{authornamehash}{481546ea38046e818db580498d8d0b75}
       \strng{authorfullhash}{e524eeaf0808326b23b60fe3b84fbffe}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
@@ -5744,6 +5745,48 @@
       \verb{url}
       \verb https://www.src.isr.umich.edu/software/iveware/
       \endverb
+    \endentry
+    \entry{Raghunathan_2001}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8d4b262e119854d9c25c564298c128cc}{%
+           family={Raghunathan},
+           familyi={R\bibinitperiod},
+           given={Trivellore\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f3bfebc3812651527806b5a0e5a943f4}{%
+           family={Lepkowski},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d35d3fe9566ebff6320f119dedd5ae07}{%
+           family={Hoewyk},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima Van},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=6ec53fb577544ab855137780a4a223e9}{%
+           family={Solenberger},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{80dc0a7de9e5c597cc962bcc485d4633}
+      \strng{fullhash}{675c7e3b0f6de1817f1fb0afba5d6ce9}
+      \strng{bibnamehash}{80dc0a7de9e5c597cc962bcc485d4633}
+      \strng{authorbibnamehash}{80dc0a7de9e5c597cc962bcc485d4633}
+      \strng{authornamehash}{80dc0a7de9e5c597cc962bcc485d4633}
+      \strng{authorfullhash}{675c7e3b0f6de1817f1fb0afba5d6ce9}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Survey Methodology}
+      \field{number}{1}
+      \field{title}{A Multivariate Technique for Multiply Imputing Missing Values Using a Sequence of Regression Models}
+      \field{volume}{27}
+      \field{year}{2001}
+      \field{pages}{85\bibrangedash 95}
+      \range{pages}{11}
     \endentry
     \entry{RAHIM2021106090}{article}{}
       \name{author}{2}{}{%

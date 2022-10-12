@@ -1,29 +1,29 @@
 # Fdb version 3
-["biber Burkman_Prospectus_09_21_22"] 1665000761 "Burkman_Prospectus_09_21_22.bcf" "Burkman_Prospectus_09_21_22.bbl" "Burkman_Prospectus_09_21_22" 1665005189
+["biber Burkman_Prospectus_09_21_22"] 1665485204 "Burkman_Prospectus_09_21_22.bcf" "Burkman_Prospectus_09_21_22.bbl" "Burkman_Prospectus_09_21_22" 1665486358
   "../Bib_Files/AAP_vol_122_173.bib" 1664022596 3207426 2899abf89400e41887a0d41b186ba1f6 ""
   "../Bib_Files/Ambulance.bib" 1648065300 13816 e8ec98819574723436f7b803c91832a4 ""
   "../Bib_Files/BibFile_Spring_2022.bib" 1652700615 25534 46a6d1f312d703fef29b3da89c7c67b9 ""
   "../Bib_Files/Medium_TDS_Citations.bib" 1656764717 3955 8a7458670c8ea93ef2a6ca3fa98f5c7a ""
-  "../Bib_Files/Paper_Summer_2022_Short.bib" 1664806055 19203 f6142a6d75cde7ee82e95ff52cfb5541 ""
+  "../Bib_Files/Paper_Summer_2022_Short.bib" 1665483060 19541 a1fabe6c3af1432041c6c72fb64da4ff ""
   "../Bib_Files/TRpC_vol_098_140.bib" 1654374978 2629665 77d30d642f34b4811649273d92086c78 ""
-  "Burkman_Prospectus_09_21_22.bcf" 1665005189 121367 a521fc31f7b0cf4f951b4a52e29787b7 "pdflatex"
+  "Burkman_Prospectus_09_21_22.bcf" 1665486358 121706 ff18adf01ffc5e8d2418224f78da76a3 "pdflatex"
   (generated)
   "Burkman_Prospectus_09_21_22.bbl"
   "Burkman_Prospectus_09_21_22.blg"
-["cusdep acn acr Burkman_Prospectus_09_21_22"] 1665005185 "Burkman_Prospectus_09_21_22.acn" "Burkman_Prospectus_09_21_22.acr" "Burkman_Prospectus_09_21_22" 1665005189
-  "Burkman_Prospectus_09_21_22.acn" 1665005189 1693 1b73c1d9f7529d36870c3540805984af "pdflatex"
+["cusdep acn acr Burkman_Prospectus_09_21_22"] 1665483104 "Burkman_Prospectus_09_21_22.acn" "Burkman_Prospectus_09_21_22.acr" "Burkman_Prospectus_09_21_22" 1665486358
+  "Burkman_Prospectus_09_21_22.acn" 1665486358 2373 e99caf3de2dfa0acd1a1e2101d5a9ede "pdflatex"
   (generated)
   "Burkman_Prospectus_09_21_22.acr"
-["cusdep glo gls Burkman_Prospectus_09_21_22"] 0 "Burkman_Prospectus_09_21_22.glo" "Burkman_Prospectus_09_21_22.gls" "Burkman_Prospectus_09_21_22" 1665005189
+["cusdep glo gls Burkman_Prospectus_09_21_22"] 0 "Burkman_Prospectus_09_21_22.glo" "Burkman_Prospectus_09_21_22.gls" "Burkman_Prospectus_09_21_22" 1665486358
   "Burkman_Prospectus_09_21_22.glo" 0 -1 0 "pdflatex"
   (generated)
   "Burkman_Prospectus_09_21_22.gls"
-["makeindex Burkman_Prospectus_09_21_22.idx"] 1665005185 "Burkman_Prospectus_09_21_22.idx" "Burkman_Prospectus_09_21_22.ind" "Burkman_Prospectus_09_21_22" 1665005189
-  "Burkman_Prospectus_09_21_22.idx" 1665005189 2000 80ed960b08be046e3fa456cfee4ce276 "pdflatex"
+["makeindex Burkman_Prospectus_09_21_22.idx"] 1665483104 "Burkman_Prospectus_09_21_22.idx" "Burkman_Prospectus_09_21_22.ind" "Burkman_Prospectus_09_21_22" 1665486358
+  "Burkman_Prospectus_09_21_22.idx" 1665486358 2000 80ed960b08be046e3fa456cfee4ce276 "pdflatex"
   (generated)
   "Burkman_Prospectus_09_21_22.ilg"
   "Burkman_Prospectus_09_21_22.ind"
-["pdflatex"] 1665005185 "Burkman_Prospectus_09_21_22.tex" "Burkman_Prospectus_09_21_22.pdf" "Burkman_Prospectus_09_21_22" 1665005189
+["pdflatex"] 1665486354 "Burkman_Prospectus_09_21_22.tex" "Burkman_Prospectus_09_21_22.pdf" "Burkman_Prospectus_09_21_22" 1665486358
   "../../../Fall_2021/699/Keras//12_04_21_Images/n_Accidents_DAY_OF_WK.png" 1639409018 7242 e40dfcddbe157e1bd7e9cb0ec2a1fb23 ""
   "../../../Fall_2021/699/Keras//12_04_21_Images/n_Severe_DAY_OF_WK.png" 1639409018 6742 8d9f42af17910e708c0c3b06ad5f74a0 ""
   "../../../Fall_2021/699/Keras//12_04_21_Images/p_Severe_DAY_OF_WK.png" 1639409019 5131 54de0261d1f1dea4e83c7d5ee0bb42da ""
@@ -300,22 +300,23 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1633547834 2724737 5f7d8f48f583c756b2109b53d4eed266 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Burkman_Prospectus_09_21_22.acr" 1665005185 1227 c9907f66d8c90baa08f82bbb78d7a1d3 "cusdep acn acr Burkman_Prospectus_09_21_22"
-  "Burkman_Prospectus_09_21_22.aux" 1665005189 65855 38ec5effb75d989ea85ffbe184b3e12c "pdflatex"
-  "Burkman_Prospectus_09_21_22.bbl" 1665000768 399938 2c445a79437cc861582d9272e59647b4 "biber Burkman_Prospectus_09_21_22"
+  "Burkman_Prospectus_09_21_22.acr" 1665483104 1490 0301b01242da5cd8ce7ab2ac45dac479 "cusdep acn acr Burkman_Prospectus_09_21_22"
+  "Burkman_Prospectus_09_21_22.aux" 1665486358 67316 982b9b37f1d1cf44d859ab77af754a1d "pdflatex"
+  "Burkman_Prospectus_09_21_22.bbl" 1665485211 401800 7a6bef0aeffc0e94307f8dd7b223429d "biber Burkman_Prospectus_09_21_22"
   "Burkman_Prospectus_09_21_22.gls" 0 -1 0 "cusdep glo gls Burkman_Prospectus_09_21_22"
-  "Burkman_Prospectus_09_21_22.glsdefs" 1665005189 5014 923a2745f33713c6f2b563ad508b35a4 "pdflatex"
-  "Burkman_Prospectus_09_21_22.ind" 1665005185 2019 37cf76eb56e8283aa956d21586bf184c "makeindex Burkman_Prospectus_09_21_22.idx"
-  "Burkman_Prospectus_09_21_22.out" 1665005189 28270 20d035d6975eb7fb8aff24d041df17bf "pdflatex"
-  "Burkman_Prospectus_09_21_22.run.xml" 1665005189 2756 b66410d261f1211d4eea21a373bc9420 "pdflatex"
-  "Burkman_Prospectus_09_21_22.tex" 1665005180 6884 69889defe1cf7d358b71632ef7ad4503 ""
-  "Burkman_Prospectus_09_21_22.toc" 1665005189 19870 b8e97130781a19ca27535f65218b0e7d "pdflatex"
-  "CRSS/CRSS_Binning.tex" 1664996342 3796 8a2e1e5afaa283db435b3460da5ca31d ""
+  "Burkman_Prospectus_09_21_22.glsdefs" 1665486358 5752 a2ea41e49f74a29a3f78ff1dcbdcf04a "pdflatex"
+  "Burkman_Prospectus_09_21_22.ind" 1665483104 2019 37cf76eb56e8283aa956d21586bf184c "makeindex Burkman_Prospectus_09_21_22.idx"
+  "Burkman_Prospectus_09_21_22.out" 1665486358 28940 31b58ec31c921643f0ecb8c99a285d17 "pdflatex"
+  "Burkman_Prospectus_09_21_22.run.xml" 1665486358 2756 b66410d261f1211d4eea21a373bc9420 "pdflatex"
+  "Burkman_Prospectus_09_21_22.tex" 1665482942 6907 2e8fff96626b1944e8e5d4867d5afaa9 ""
+  "Burkman_Prospectus_09_21_22.toc" 1665486358 20374 9e0cedea3c2c91a7dbfacef65d20341a "pdflatex"
+  "CRSS/CRSS_Binning.tex" 1665053295 7493 56efdb7594c7caba091cfb8be3f76775 ""
   "CRSS/CRSS_Data_Files.tex" 1664375553 1692 a9c7f5d4122f4490b34447862b7b53a4 ""
-  "CRSS/CRSS_Features.tex" 1664989304 6873 b469cd016c13b8750b474873ee95e67d ""
+  "CRSS/CRSS_Features.tex" 1665401802 6895 e7bacb3f5d5ad97a711980c1c5309740 ""
+  "CRSS/CRSS_Imputing.tex" 1665485928 8240 77740c2b79b8af54ae18957d746181d7 ""
   "CRSS/CRSS_Overview.tex" 1664375548 1735 a4d4c401b30481f6cacb4ed357275e53 ""
   "Intro/Graduation_Plan.tex" 1663845183 3992 1f9b94c80432a65a7355d868f144a667 ""
-  "Intro/One_Page_Summary.tex" 1664988548 2613 15483ff916385b2bc18aefb0905832fa ""
+  "Intro/One_Page_Summary.tex" 1665481892 2761 89289c1ab775753dcb37720f26ba83cf ""
   "Intro/Previous_Work.tex" 1664759214 406 9a6c4a9fd5e99ba7a6b5985edecb208e ""
   "Intro/Problem.tex" 1664794256 4235 52d1804395aa1fc642a7fb3c0f284dfb ""
   "Intro/Rationale.tex" 1664878591 787 856f5700daacdc7aff313c658fbd38cf ""
