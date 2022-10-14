@@ -147,6 +147,52 @@
       \endverb
       \keyw{Predictive maintenance,Decision support,Machine learning,Railway infrastructure,Data-driven,Switches and crossings,Classification,LIME}
     \endentry
+    \entry{AMINI2022108720}{article}{}
+      \name{author}{3}{}{%
+        {{hash=23219af8d9381fb7f063dce2b4ae0420}{%
+           family={Amini},
+           familyi={A\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4119a5b864dad2d3a8079fc113fa3bad}{%
+           family={Bagheri},
+           familyi={B\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d4b3cc303814c37dc2168d3d648bca7}{%
+           family={Delen},
+           familyi={D\bibinitperiod},
+           given={Dursun},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{93e37b8f2d45b9a1efdc91c6391d70c0}
+      \strng{fullhash}{93e37b8f2d45b9a1efdc91c6391d70c0}
+      \strng{bibnamehash}{93e37b8f2d45b9a1efdc91c6391d70c0}
+      \strng{authorbibnamehash}{93e37b8f2d45b9a1efdc91c6391d70c0}
+      \strng{authornamehash}{93e37b8f2d45b9a1efdc91c6391d70c0}
+      \strng{authorfullhash}{93e37b8f2d45b9a1efdc91c6391d70c0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0951-8320}
+      \field{journaltitle}{Reliability Engineering \& System Safety}
+      \field{title}{Discovering injury severity risk factors in automobile crashes: A hybrid explainable AI framework for decision support}
+      \field{volume}{226}
+      \field{year}{2022}
+      \field{pages}{108720}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ress.2022.108720
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0951832022003441
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0951832022003441
+      \endverb
+      \keyw{Explainable AI,Variable neighborhood search,Machine learning,Information fusion,Injury severity risk factors,Traffic safety}
+    \endentry
     \entry{AN2020102777}{article}{}
       \name{author}{5}{}{%
         {{hash=dbb02f478597890bc8f6d04ea2167ab7}{%
@@ -1499,6 +1545,47 @@
       \endverb
       \keyw{Air transportation,Machine learning,Anomaly detection,ADS-B,Clustering}
     \endentry
+    \entry{COX2021288}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fa9ba99d861cb76f801177a0434c3d87}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Aimee\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=5d013daf46830a6e9e19b96630b616c6}{%
+           family={Cicchino},
+           familyi={C\bibinitperiod},
+           given={Jessica\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{121ee934a3533413bc10251871a67db1}
+      \strng{fullhash}{121ee934a3533413bc10251871a67db1}
+      \strng{bibnamehash}{121ee934a3533413bc10251871a67db1}
+      \strng{authorbibnamehash}{121ee934a3533413bc10251871a67db1}
+      \strng{authornamehash}{121ee934a3533413bc10251871a67db1}
+      \strng{authorfullhash}{121ee934a3533413bc10251871a67db1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4375}
+      \field{journaltitle}{Journal of Safety Research}
+      \field{title}{Continued trends in older driver crash involvement rates in the United States: Data through 2017–2018}
+      \field{volume}{77}
+      \field{year}{2021}
+      \field{pages}{288\bibrangedash 295}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jsr.2021.03.013
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022437521000463
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022437521000463
+      \endverb
+      \keyw{Aging,Fatal crash trends,Crash survivability,Police-reported crash trends,Motor vehicle travel}
+    \endentry
     \entry{CUI2020102620}{article}{}
       \name{author}{5}{}{%
         {{hash=c7f6a3d1688003e0a41e49e8ce85f01e}{%
@@ -2457,6 +2544,72 @@
       \endverb
       \keyw{Fault,Recovery,Road trauma,Transport injury,Pain,Mental health,PTSD,Depression,Anxiety}
     \endentry
+    \entry{GONG2022100190}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2941874f0887dd509cf8f5e5d71752b2}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Hongren},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5994564d9fdac0fe320912b6ebb8ed7c}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9c3a313585bc8f72bdbd8752a0a8f9cd}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yiren},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=15123cf5295d5fe19121224f998d2e79}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zhongyin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c154135f5fb228f5832e3df47fcf9787}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0b61e9661067d0a906cff8be51415c72}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5c9277d14737bb3e171298c5ef033032}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Ziwen},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a00c4ce54c8157f38cb7a7f2d327ae4}
+      \strng{fullhash}{fa64d2bd81ed6621e8f4609d8a548ea0}
+      \strng{bibnamehash}{9a00c4ce54c8157f38cb7a7f2d327ae4}
+      \strng{authorbibnamehash}{9a00c4ce54c8157f38cb7a7f2d327ae4}
+      \strng{authornamehash}{9a00c4ce54c8157f38cb7a7f2d327ae4}
+      \strng{authorfullhash}{fa64d2bd81ed6621e8f4609d8a548ea0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2213-6657}
+      \field{journaltitle}{Analytic Methods in Accident Research}
+      \field{title}{Two-vehicle driver-injury severity: A multivariate random parameters logit approach}
+      \field{volume}{33}
+      \field{year}{2022}
+      \field{pages}{100190}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.amar.2021.100190
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2213665721000348
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2213665721000348
+      \endverb
+      \keyw{Multivariate Bayesian,Random parameter logit,Unobserved heterogeneity,Two-vehicle crash,Correlated alternatives,Driver injury severity}
+    \endentry
     \entry{NIPS2014_5ca3e9b1}{inproceedings}{}
       \name{author}{8}{}{%
         {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
@@ -3221,6 +3374,72 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0968090X2030855X
       \endverb
       \keyw{Survival analysis,Deep learning,Model interpretability,Virtual reality,Pedestrian crossing behaviour,Pedestrian wait time}
+    \endentry
+    \entry{KAPLAN2017130}{article}{}
+      \name{author}{7}{}{%
+        {{hash=19566765ca3511f6ec1037910c58e411}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0fd3105b6e140e2ffe9c83d369b509c0}{%
+           family={Caetano},
+           familyi={C\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d3a88f7a881017f0206170da6f3a913d}{%
+           family={Giesbrecht},
+           familyi={G\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=51e4a25a5fd9a8f5222bf945b5f3a492}{%
+           family={Huguet},
+           familyi={H\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9f6054cce3e34ba63592dbad16305371}{%
+           family={Kerr},
+           familyi={K\bibinitperiod},
+           given={William\bibnamedelima C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1e30da0a5447376b3dffc60db5d5270d}{%
+           family={McFarland},
+           familyi={M\bibinitperiod},
+           given={Bentson\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a59bfd22161110b1a0b9765536bc7a96}{%
+           family={Nolte},
+           familyi={N\bibinitperiod},
+           given={Kurt\bibnamedelima B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4d1cb0f0b6c1cf3e380a917b124a684}
+      \strng{fullhash}{09241143585bb4fabe890d5e3c3b1539}
+      \strng{bibnamehash}{b4d1cb0f0b6c1cf3e380a917b124a684}
+      \strng{authorbibnamehash}{b4d1cb0f0b6c1cf3e380a917b124a684}
+      \strng{authornamehash}{b4d1cb0f0b6c1cf3e380a917b124a684}
+      \strng{authorfullhash}{09241143585bb4fabe890d5e3c3b1539}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0749-3797}
+      \field{journaltitle}{American Journal of Preventive Medicine}
+      \field{number}{1}
+      \field{title}{The National Violent Death Reporting System: Use of the Restricted Access Database and Recommendations for the System’s Improvement}
+      \field{volume}{53}
+      \field{year}{2017}
+      \field{pages}{130\bibrangedash 133}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.amepre.2017.01.043
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0749379717301101
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0749379717301101
+      \endverb
     \endentry
     \entry{KE2021102858}{article}{}
       \name{author}{6}{}{%
@@ -4907,6 +5126,47 @@
       \endverb
       \keyw{Driving style classification,Unsupervised machine learning,Big data,Location-based services,Connected vehicles,Basic safety message}
     \endentry
+    \entry{MUELLER2022305}{article}{}
+      \name{author}{2}{}{%
+        {{hash=21a137a161abe82ca93d715746fc5c21}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Alexandra\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5d013daf46830a6e9e19b96630b616c6}{%
+           family={Cicchino},
+           familyi={C\bibinitperiod},
+           given={Jessica\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ccd18a442f584a17ab79b93d85fb16a}
+      \strng{fullhash}{2ccd18a442f584a17ab79b93d85fb16a}
+      \strng{bibnamehash}{2ccd18a442f584a17ab79b93d85fb16a}
+      \strng{authorbibnamehash}{2ccd18a442f584a17ab79b93d85fb16a}
+      \strng{authornamehash}{2ccd18a442f584a17ab79b93d85fb16a}
+      \strng{authorfullhash}{2ccd18a442f584a17ab79b93d85fb16a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4375}
+      \field{journaltitle}{Journal of Safety Research}
+      \field{title}{Teen driver crashes potentially preventable by crash avoidance features and teen-driver-specific safety technologies}
+      \field{volume}{81}
+      \field{year}{2022}
+      \field{pages}{305\bibrangedash 312}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jsr.2022.03.007
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022437522000433
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022437522000433
+      \endverb
+      \keyw{Adolescent drivers,Young drivers,Safety benefits,ADAS,Vehicle technologies}
+    \endentry
     \entry{MULLERHANNEMANN2022103566}{article}{}
       \name{author}{4}{}{%
         {{hash=678f615920a98d1c8763d50fc7df7947}{%
@@ -6560,6 +6820,57 @@
       \verb https://medium.com/thecyphy/handling-imbalanced-datasets-with-imblearn-library-df5e58b968f4
       \endverb
     \endentry
+    \entry{SPICER2021105974}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3be9bcae32ca8a48cd98ee0fc033fe43}{%
+           family={Spicer},
+           familyi={S\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4e3336ff1582f5790521630148b70b44}{%
+           family={Bahouth},
+           familyi={B\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ef0ebcda397e4f2aedcd887c09049cd4}{%
+           family={Vahabaghaie},
+           familyi={V\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b72b3889466fa7bec2042484644e4beb}{%
+           family={Drayer},
+           familyi={D\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{49e5b80eb36644f0d3cce2f424950dbd}
+      \strng{fullhash}{9793a63662df8dcc4bce9270100cb995}
+      \strng{bibnamehash}{49e5b80eb36644f0d3cce2f424950dbd}
+      \strng{authorbibnamehash}{49e5b80eb36644f0d3cce2f424950dbd}
+      \strng{authornamehash}{49e5b80eb36644f0d3cce2f424950dbd}
+      \strng{authorfullhash}{9793a63662df8dcc4bce9270100cb995}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4575}
+      \field{journaltitle}{Accident Analysis \& Prevention}
+      \field{title}{Frequency and cost of crashes, fatalities, and injuries involving disabled vehicles}
+      \field{volume}{152}
+      \field{year}{2021}
+      \field{pages}{105974}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.aap.2021.105974
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521000051
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0001457521000051
+      \endverb
+      \keyw{Disabled vehicle,Pedestrian,Technology,Low conspicuity event,Cost}
+    \endentry
     \entry{Stewart_TDS_07_01_22}{online}{}
       \name{author}{1}{}{%
         {{hash=2abb6a57159d48dc6250f177e819d2b8}{%
@@ -6590,6 +6901,34 @@
       \verb{url}
       \verb https://medium.com/mlearning-ai/what-data-scientists-keep-missing-about-imbalanced-datasets-d1f10e808297
       \endverb
+    \endentry
+    \entry{subramanian2002transitioning}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=70bf0dfd2a911e2f3d91352c6da0aa3c}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Rajesh},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National Center for Statistics}%
+        {Analysis (US)}%
+      }
+      \strng{namehash}{780824c74ab6dbdacb4974f55dc9d680}
+      \strng{fullhash}{780824c74ab6dbdacb4974f55dc9d680}
+      \strng{bibnamehash}{780824c74ab6dbdacb4974f55dc9d680}
+      \strng{authorbibnamehash}{780824c74ab6dbdacb4974f55dc9d680}
+      \strng{authornamehash}{780824c74ab6dbdacb4974f55dc9d680}
+      \strng{authorfullhash}{780824c74ab6dbdacb4974f55dc9d680}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transitioning to multiple imputation: a new method to impute missing blood alcohol concentration (BAC) values in FARS}
+      \field{type}{techreport}
+      \field{year}{2002}
     \endentry
     \entry{SUN2021103114}{article}{}
       \name{author}{2}{}{%
@@ -6890,6 +7229,48 @@
       \field{pages}{769\bibrangedash 772}
       \range{pages}{4}
     \endentry
+    \entry{TOPUZ2021113557}{article}{}
+      \name{author}{2}{}{%
+        {{hash=603ada93cfeea0486bc9bf703cc0b6c0}{%
+           family={Topuz},
+           familyi={T\bibinitperiod},
+           given={Kazim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8d4b3cc303814c37dc2168d3d648bca7}{%
+           family={Delen},
+           familyi={D\bibinitperiod},
+           given={Dursun},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4869a557bdb22b358d55f824b6d40b9}
+      \strng{fullhash}{b4869a557bdb22b358d55f824b6d40b9}
+      \strng{bibnamehash}{b4869a557bdb22b358d55f824b6d40b9}
+      \strng{authorbibnamehash}{b4869a557bdb22b358d55f824b6d40b9}
+      \strng{authornamehash}{b4869a557bdb22b358d55f824b6d40b9}
+      \strng{authorfullhash}{b4869a557bdb22b358d55f824b6d40b9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-9236}
+      \field{journaltitle}{Decision Support Systems}
+      \field{note}{Interpretable Data Science For Decision Making}
+      \field{title}{A probabilistic Bayesian inference model to investigate injury severity in automobile crashes}
+      \field{volume}{150}
+      \field{year}{2021}
+      \field{pages}{113557}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.dss.2021.113557
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167923621000671
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167923621000671
+      \endverb
+      \keyw{Data science,Bayesian inference,Injury severity,Decision making,Cross-entropy loss function,Bayesian missing data handling}
+    \endentry
     \entry{TURAN2020102829}{article}{}
       \name{author}{3}{}{%
         {{hash=ac428b7f0542fd4ff6b6fa74a8a6ffa9}{%
@@ -6996,6 +7377,58 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0968090X18316024
       \endverb
       \keyw{Machine learning,Trajectory prediction,Air Traffic Management,Conflict,Vertical profile,Air traffic control,Flows,Artificial Neural Networks}
+    \endentry
+    \entry{VILLAVICENCIO2022757}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9fab6d7d144cfd9f1221dfd627226d19}{%
+           family={Villavicencio},
+           familyi={V\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=005c699e763774886f98e8e637eba3cf}{%
+           family={Svancara},
+           familyi={S\bibinitperiod},
+           given={Austin\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f951dc25341102ad823319d9d8937d56}{%
+           family={Kelley-Baker},
+           familyi={K\bibinithyphendelim B\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0e5c8937cf95dd610dde97fe8453fcc2}{%
+           family={Tefft},
+           familyi={T\bibinitperiod},
+           given={Brian\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cdae3eb05c7e325b502f288a82ee958}
+      \strng{fullhash}{7a8fb6dbce027fef71280130796e5b88}
+      \strng{bibnamehash}{9cdae3eb05c7e325b502f288a82ee958}
+      \strng{authorbibnamehash}{9cdae3eb05c7e325b502f288a82ee958}
+      \strng{authornamehash}{9cdae3eb05c7e325b502f288a82ee958}
+      \strng{authorfullhash}{7a8fb6dbce027fef71280130796e5b88}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1054-139X}
+      \field{journaltitle}{Journal of Adolescent Health}
+      \field{number}{5}
+      \field{title}{Passenger Presence and the Relative Risk of Teen Driver Death}
+      \field{volume}{70}
+      \field{year}{2022}
+      \field{pages}{757\bibrangedash 762}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jadohealth.2021.10.038
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1054139X21005759
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1054139X21005759
+      \endverb
+      \keyw{Motor vehicle,Crash,Peer passengers,Teen drivers,Fatality,Crash severity}
     \endentry
     \entry{WANG_2021}{article}{}
       \name{author}{6}{}{%

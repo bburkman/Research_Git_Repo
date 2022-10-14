@@ -104,15 +104,38 @@ The CRSS authors used \acrfull{iveware} to implement \acrfull{smri} for their fi
 %%%
 \subsection{IVEware Testing}
 
-When the CRSS authors imputed unknown values for a feature, they left the unimputed feature in the dataset.  To test how close our imputation results were to theirs, we ran our imputation algorithm on some of those unimputed features and compared.  Since imputation involves randomness, we also compared two of our imputation runs to see whether the difference between our results and those of CRSS were largely due to expected random variability and not to a difference in methods.  
+When the CRSS authors imputed unknown values for a feature, they left the unimputed feature in the dataset.  To test how close our imputation results were to theirs, we ran our imputation algorithm on some of those unimputed features and compared.  Since imputation involves randomness, we also compared two of our imputation runs to see whether the difference between our results and those of CRSS were largely due to expected random variability and not significantly due to a difference in methods.  
 
 The tables below compare imputation results for the Lighting Conditions feature, LGT\_COND, just looking at the 2,309 samples with unknown values 8 or 9.  
 
-
+The tables below are for Lighting Conditions.  The LGT\_COND feature is the original data with 2,309 unknown values.  The LGTCOND\_IM is the imputed feature in the CRSS data set, and the LGT\_COND\_IVE is one run of our imputation.  The LGT\_COND\_IVE\_2 is our imputation with the same hyperparameters but a different random seed.  The crosstabs below only show the 2,309 samples with unknown values, comparing the values to which the imputations assigned them.  
 
 %['LGT_COND', 'LGTCON_IM', 'LGT_COND_IVE', [8, 9], 2309]
 
-\begin{tabular}{lrrrrrrr}
+\vskip 12pt
+
+\hfil\begin{tabular}{clr}
+	\multicolumn{2}{l}{\bf LGT\_COND (Light Conditions)} \cr \hline
+	Value & Meaning & Count \cr\hline
+	1 & Daylight & 177,013 \cr
+	2 & Dark - Not Lighted & 26,403 \cr
+	3 & Dark - Lighted & 41,508 \cr
+	4 & Dawn & 4,063 \cr
+	5 & Dusk & 6,016 \cr
+	6 & Dark - Unknown Lighting & 1,697 \cr
+	7 & Other & 68 \cr
+	8 & Not Reported & 1,690 \cr
+	9 & Reported as Unknown & 619 \cr
+\end{tabular}
+
+\vskip 12pt
+
+To Do:  \index{To Do!Table Totals}  Include totals for rows and columns
+
+\vskip 12pt
+
+\hfil\begin{tabular}{lrrrrrrr}
+\multicolumn{8}{l}{\bf Comparing CRSS's Imputation with Ours} \cr\hline
 LGT\_COND\_IVE &    1 &    2 &    3 &   4 &   5 &   6 &  7 \\
 LGTCON\_IM &      &      &      &     &     &     &    \\
 \hline
@@ -125,7 +148,11 @@ LGTCON\_IM &      &      &      &     &     &     &    \\
 7         &    0 &    0 &    1 &   0 &   0 &   0 &  0 \\
 \end{tabular}
 
-\begin{tabular}{lrrrrrrr}
+\vskip 12pt
+
+\hfil\begin{tabular}{lrrrrrrr}
+\multicolumn{8}{l}{\bf Comparing Two IVEware Runs} \cr
+\multicolumn{8}{l}{\bf \qquad with Different Random Seeds} \cr\hline
 LGT\_COND\_IVE\_2 &    1 &    2 &    3 &   4 &   5 &   6 &  7 \\
 LGT\_COND\_IVE &      &      &      &     &     &     &    \\
 \hline
@@ -137,6 +164,18 @@ LGT\_COND\_IVE &      &      &      &     &     &     &    \\
 6            &    9 &   26 &    6 &   2 &   1 &   1 &  0 \\
 7            &    1 &    1 &    0 &   0 &   0 &   0 &  0 \\
 \end{tabular}
+
+\vskip 12pt
+
+To Do \index{To Do!Crosstabs Metric}:  Find a metric for comparing the variability.
+
+\vskip 12pt
+
+The two crosstabs tables indicate that, while my recreation of the imputation method used by the CRSS authors does not give the same results, it gives similar results, and the differences are largely consistent with the differences between two runs with different random seeds.  Our imputation is not the same, but may be as similar as possible, given that we are working with unknowns and randomness.
+
+
+
+
 
 
 
