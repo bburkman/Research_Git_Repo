@@ -1,1 +1,15 @@
-\beamer@sectionintoc {1}{Questions}{3}{0}{1}
+\beamer@sectionintoc {1}{Problem Overview}{3}{0}{1}
+\beamer@sectionintoc {2}{How I Got Here}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Life}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Computing}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Dissertation Topic}{8}{0}{2}
+\beamer@sectionintoc {3}{Dissertation Goals}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Humanities v/s STEM}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Goals and Challenges}{13}{0}{3}
+\beamer@sectionintoc {4}{Deep Dive: Order of Operations}{14}{0}{4}
+\beamer@sectionintoc {5}{Timeline}{27}{0}{5}
+\beamer@subsectionintoc {5}{1}{Paper}{28}{0}{5}
+\beamer@subsectionintoc {5}{2}{Dissertation}{29}{0}{5}
+\beamer@subsectionintoc {5}{3}{Revise and Submit}{30}{0}{5}
+\beamer@subsectionintoc {5}{4}{Defend and Graduate}{31}{0}{5}
+\beamer@sectionintoc {6}{Questions}{32}{0}{6}

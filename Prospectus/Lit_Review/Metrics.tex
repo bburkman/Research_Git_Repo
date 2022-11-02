@@ -1,5 +1,6 @@
 %%%%%
 \section{Metrics}
+\label{sec:Imbalanced_Metrics}
 
 %%%
 \subsection{The Problem:  Imbalanced Data Set}
@@ -41,6 +42,8 @@ The precision is thrown off by an imbalanced data set, because it works with bot
 \subsection{Balanced Precision and Balanced F1 in the Penalty Function}
 \index{Balanced Precision}
 \index{Balanced F1}
+\label{sec:Balanced_Metrics}
+
 
 Most ML algorithms work using a {\it penalty function} that measures how bad the current solution is, then iteratively improving the solution in the direction that minimizes the penalty.  We should be able to write a custom penalty function.  
 
@@ -104,29 +107,6 @@ $$\text{Balanced Accuracy} = \frac{TPR + TNR}{2}$$
 	&= \frac{TNR+TPR}{2} \cr
 \end{align*}
 
-%%%
-\subsection{Balanced Precision}
-\index{Balanced Precision}
-
-I haven't found {\it balanced precision} in a brief Google search, although Google knows the kind of stuff I look up and sent me to articles on balanced accuracy.  Finding it will take some work, because ``balanced precision'' has different meanings in other tech fields.  
-
-We can make balanced precision the same way we made balanced accuracy, by taking the actual negative results (TN and FP) and scaling them  so that the total number of actual negatives equals the total number of actual positives, by multiplying by $\frac{P}{N} = \frac{FN+TP}{TN+FP}$.
-
-Is this related to the G-mean?  [No]
-
-$$\text{G-mean} = \sqrt{\text{Precision} \times \text{Specificity}}$$
-
-\begin{align*}
-	\text{Precision} &= \frac{TP}{TP+FP} \cr
-	\text{Balanced Precision} &= \frac{TP}{TP+FP \cdot \frac{P}{N}} \cr
-		&= \frac{TP \cdot N}{TP \cdot N + FP \cdot P} \cr
-		&= \frac{TP (TN+FP)}{TP(TN+FP) + FP (FN+TP)} \cr
-		&= \frac{TP (TN+FP)}{TP(TN+FP) + FP (FN+TP)} \cr
-		&= \dots \cr
-\end{align*}
-
-Giving up here on finding some nice, concise connection between Balanced Precision and other metrics.  
-
 
 %%%
 \subsection{Balancing Two Metrics:  F1 and Gmean}
@@ -165,6 +145,29 @@ Gmean is the geometric mean of Precision and Specificity (TNR).
 		\frac{TP}{TP+FP} \times \frac{TN}{TN+FP}
 		}
 \end{align*}
+
+%%%
+\subsection{Balanced Precision}
+\index{Balanced Precision}
+
+I have not seen Balanced Precision in the literature, although it could be called something else and have been used in places I did not look.  
+
+We can make balanced precision the same way we made balanced accuracy, by taking the actual negative results (TN and FP) and scaling them  so that the total number of actual negatives equals the total number of actual positives, by multiplying by $\frac{P}{N} = \frac{FN+TP}{TN+FP}$.
+
+Is this related to the G-mean?  [No]
+
+$$\text{G-mean} = \sqrt{\text{Precision} \times \text{Specificity}}$$
+
+\begin{align*}
+	\text{Precision} &= \frac{TP}{TP+FP} \cr
+	\text{Balanced Precision} &= \frac{TP}{TP+FP \cdot \frac{P}{N}} \cr
+		&= \frac{TP \cdot N}{TP \cdot N + FP \cdot P} \cr
+		&= \frac{TP (TN+FP)}{TP(TN+FP) + FP (FN+TP)} \cr
+		&= \frac{TP (TN+FP)}{TP(TN+FP) + FP (FN+TP)} \cr
+		&= \dots \cr
+\end{align*}
+
+I cannot find some nice, concise connection between Balanced Precision and other metrics.  
 
 
 
