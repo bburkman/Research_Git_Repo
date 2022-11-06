@@ -1,5 +1,6 @@
 \section{Deep Dive:  Order of Operations}
 
+\subsection{Problem}
 \begin{frame}[t]
 	\frametitle{Deep Dive:  Order of Operations}
 \Large
@@ -20,25 +21,29 @@
 	
 \end{frame}
 
+\subsection{Example}
 \begin{frame}[t]
 	\frametitle{Example:  WEATHER}
 \Large
 
 	\begin{itemize}
 		\item CRSS Accident Data Set
+		
 		\begin{itemize}
 			\Large
 			\item 51 features, 20 of which we will use
 			\item 259,077 samples
 			\item 91,714 (35\%) have some value missing
 		\end{itemize}
+		
 		\item WEATHER feature
+		
 		\begin{itemize}
 			\Large
 			\item 11 known values	
 			
 			\vskip 6pt
-			\item 13,284 (5.1\%) missing values
+			\item 13,284 (5.1\%) samples not known
 			\begin{itemize}
 				\Large
 				\item Not Reported (12,636, 4.88\%)
@@ -73,6 +78,7 @@
 \end{frame}
 }
 
+\subsection{Imputation Options}
 \begin{frame}[t]
 	\frametitle{Imputing Missing Values}
 	\Large
@@ -86,14 +92,14 @@
 			\Large
 			\item Imputation and Variance Estimation Software
 			\item U Michigan Institute for Social Research
-			\item Sequential Regression Multivariate Imputation (SMRI)
+			\item Sequential Regression Multivariate Imputation (SRMI)
 			\item Used by CRSS to impute {\it some} features
 		\end{itemize}
 	\end{itemize}
 	
 \end{frame}
 
-
+\subsection{Experiment}
 \begin{frame}[t]
 	\frametitle{Experimental Method}
 	\Large
@@ -181,7 +187,7 @@ Ground Truth &     &       &      &       &      \\
 
 8581 missing values
 
-4820 (56.17\%) imputed incorrectly
+4820 (56.17\%) imputed correctly
 
 4776 (55.66\%) on second run
 
@@ -276,6 +282,20 @@ Ground\_Truth &     &     &     &     &     &     &     \\
 
  225 (30.91\%) imputed correctly
 
+\end{frame}
+
+\subsection{Imputation Questions}
+\begin{frame}[t]
+	\frametitle{Questions about Imputation}
+	\Large
+
+	\begin{itemize}
+		\item In imputation, is ``better than random'' considered ``good''?
+		\item If the SRMI on a feature is really good, is the feature redundant?
+		\item Is SRMI susceptible to the imbalanced data problem?
+		\item If SRMI works well on one feature and mode imputation on another, should I mix and match the methods?
+		
+	\end{itemize}
 
 \end{frame}
 
