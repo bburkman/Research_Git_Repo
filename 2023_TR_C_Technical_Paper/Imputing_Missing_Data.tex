@@ -1,0 +1,63 @@
+%%%%%
+\section{Missing Data in the CRSS Data Set}
+
+The \acrfull{crss} data set is well curated and in most features has categories signifying unknown or unreported values.  The data set does not have nonsensical or misspelled values.  It probably does have values that, due to errors in observation or transcription, are incorrect, but we will not address that problem.  
+
+In the WEATHER feature, for instance, ten values signify a specific kind of weather, one value indicates ``other'' kind of weather, one signifies Unreported, and one Reported as Unknown.    
+
+\
+
+\begin{tabular}{rrrlrr}
+	& Feature &Code & \multicolumn{2}{c}{Meaning \hfill \% of Samples} & \% Hospitalized \cr\hline
+	 & \verb|WEATHER| & 1 & Clear & 70.02 & 16.39 \cr
+	 & \verb|WEATHER| & 2 & Rain & 8.82 & 16.05 \cr
+	 & \verb|WEATHER| & 3 & Sleet or Hail & 0.11 & 18.23 \cr
+	 & \verb|WEATHER| & 4 & Snow & 1.47 & 12.48 \cr
+	 & \verb|WEATHER| & 5 & Fog, Smog, Smoke & 0.33 & 22.50 \cr
+	 & \verb|WEATHER| & 6 & Severe Crosswinds & 0.05 & 15.79 \cr
+	 & \verb|WEATHER| & 7 & Blowing Sand, Soil, Dirt & 0.02 & 12.50 \cr
+	 & \verb|WEATHER| & 8 & Other & 0.06 & 14.93 \cr
+	 & \verb|WEATHER| & 10 & Cloudy & 14.35 & 15.77 \cr
+	 & \verb|WEATHER| & 11 & Blowing Snow & 0.04 & 13.67 \cr
+	 & \verb|WEATHER| & 12 & Freezing Rain or Drizzle & 0.02 & 13.12 \cr
+	 & \verb|WEATHER| & 98 & Not Reported & 4.54 & 13.20 \cr
+	 & \verb|WEATHER| & 99 & Reported as Unknown & 0.16 & 10.77 \cr
+\end{tabular}
+
+\
+
+The CRSS authors used \acrfull{iveware} \cite{IVEware} to impute values for codes 98 and 99, making the feature \verb|WEATHR_IM|.
+
+\
+
+\begin{tabular}{rlrrrrr}
+	&
+	\multicolumn{2}{c}{\hfill \% of} 
+	& \% of 
+	& 
+	& \% of 
+	&  \cr
+	&
+	\multicolumn{2}{c}{\hfill Samples} 
+	& Samples
+	& 
+	& Missing
+	& \% \cr
+	Code 
+	& \multicolumn{2}{c}{Meaning \hfill (Original)} 
+	& (Imputed)
+	& Difference
+	& Values
+	& Hospitalized \cr\hline
+1 &  Clear  & 70.0227 & 73.3489 & 3.3262 & 70.8335 &  16.2245 \cr
+2 &  Rain  & 8.8223 & 9.2981 & 0.4758 & 10.1325 &  15.9803 \cr
+3 &  Sleet or Hail  & 0.1141 & 0.1206 & 0.0065 & 0.1384 &  18.0180 \cr
+4 &  Snow  & 1.4716 & 1.5444 & 0.0728 & 1.5503 &  12.3618 \cr
+5 &  Fog, Smog, Smoke  & 0.3332 & 0.3548 & 0.0216 & 0.46 &  21.6973 \cr
+6 &  Severe Crosswinds  & 0.0531 & 0.0602 & 0.0071 & 0.1512 &  14.1753 \cr
+7 &  Blowing Sand, Soil, Dirt  & 0.0161 & 0.0169 & 0.0008 & 0.017 &  11.9266 \cr
+8 &  Other  & 0.0551 & 0.0573 & 0.0022 & 0.0469 &  15.1762 \cr
+10 &  Cloudy  & 14.3481 & 15.1257 & 0.7776 & 16.5595 &  15.7146 \cr
+11 &  Blowing Snow  & 0.0431 & 0.0469 & 0.0038 & 0.0809 &  12.5828 \cr
+12 &  Freezing Rain or Drizzle  & 0.0248 & 0.0262 & 0.0014 & 0.0298 &  13.6095 \cr
+\cr\end{tabular}

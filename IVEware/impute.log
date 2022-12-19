@@ -1,0 +1,267 @@
+IVEware Statistical Procedures
+Survey Research Center, Institute for Social Research
+University of Michigan
+Version 0.3, Copyright (c) 2022
+
+
+Wed Nov  9 12:12:13 2022
+  Begin setup checking
+  Read setup
+  Seed 1668017533
+  Write setup
+  End setup checking
+
+Wed Nov  9 12:12:13 2022
+  Begin execution
+  Read setup
+  Read data
+Wed Nov  9 12:12:13 2022
+  Mult 1, Iter 1, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Warning: Too many iterations, probably due to
+           colinearity with dependent variable
+  Correct data
+Wed Nov  9 12:12:16 2022
+  Mult 1, Iter 1, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:17 2022
+  Mult 1, Iter 1, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:18 2022
+  Mult 1, Iter 1, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:19 2022
+  Mult 1, Iter 2, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:20 2022
+  Mult 1, Iter 2, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:22 2022
+  Mult 1, Iter 2, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:23 2022
+  Mult 1, Iter 2, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:23 2022
+  Mult 1, Iter 3, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:25 2022
+  Mult 1, Iter 3, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:26 2022
+  Mult 1, Iter 3, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:27 2022
+  Mult 1, Iter 3, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:27 2022
+  Mult 1, Iter 4, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:29 2022
+  Mult 1, Iter 4, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:30 2022
+  Mult 1, Iter 4, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:32 2022
+  Mult 1, Iter 4, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:32 2022
+  Mult 1, Iter 5, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:33 2022
+  Mult 1, Iter 5, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:35 2022
+  Mult 1, Iter 5, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:36 2022
+  Mult 1, Iter 5, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:36 2022
+  Mult 1, Iter 6, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:38 2022
+  Mult 1, Iter 6, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:39 2022
+  Mult 1, Iter 6, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:40 2022
+  Mult 1, Iter 6, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:41 2022
+  Mult 1, Iter 7, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:42 2022
+  Mult 1, Iter 7, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:44 2022
+  Mult 1, Iter 7, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:45 2022
+  Mult 1, Iter 7, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:45 2022
+  Mult 1, Iter 8, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:47 2022
+  Mult 1, Iter 8, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:48 2022
+  Mult 1, Iter 8, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:49 2022
+  Mult 1, Iter 8, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:49 2022
+  Mult 1, Iter 9, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:51 2022
+  Mult 1, Iter 9, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:52 2022
+  Mult 1, Iter 9, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:54 2022
+  Mult 1, Iter 9, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:54 2022
+  Mult 1, Iter 10, Imp 1
+  Impute INT_HWY
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:55 2022
+  Mult 1, Iter 10, Imp 2
+  Impute REL_ROAD
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:57 2022
+  Mult 1, Iter 10, Imp 3
+  Impute TYP_INT
+  Update data
+  Polytomous regression
+  Correct data
+Wed Nov  9 12:12:58 2022
+  Mult 1, Iter 10, Imp 4
+  Impute RELJCT1_IM
+  Update data
+  Logistic regression
+  Correct data
+Wed Nov  9 12:12:58 2022
+  Output data
+  Warning: Only one code imputed for INT_HWY
+  End execution
+
+Wed Nov  9 12:12:58 2022
+  Begin Putdata execution
+  End execution

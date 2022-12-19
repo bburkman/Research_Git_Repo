@@ -1,0 +1,83 @@
+IVEware Setup Checker, Wed Nov  9 12:12:13 2022                                  1
+
+Setup listing:
+
+title Multiple imputation;
+datain Accident;
+dataout impute;
+default categorical;
+minrsqd 0.01;
+maxpred 15;
+iterations 10;
+run;
+IVEware Iterative Imputation Procedure, Wed Nov  9 12:12:58 2022                 1
+
+Multiple imputation
+
+Variable            Observed           Imputed    Double counted
+ALCHL_IM              259077                 0                 0
+EVENT1_IM             259077                 0                 0
+HOUR_IM               259077                 0                 0
+INT_HWY               259052                25                 0
+LGTCON_IM             259077                 0                 0
+MANCOL_IM             259077                 0                 0
+MAXSEV_IM             259077                 0                 0
+MONTH                 259077                 0                 0
+NO_INJ_IM             259077                 0                 0
+PEDS                  259077                 0                 0
+PERMVIT               259077                 0                 0
+PERNOTMVIT            259077                 0                 0
+PSU                   259077                 0                 0
+PVH_INVL              259077                 0                 0
+REGION                259077                 0                 0
+RELJCT1_IM            204668             54409                 0
+RELJCT2_IM            259077                 0                 0
+REL_ROAD              258887               190                 0
+SCH_BUS               259077                 0                 0
+TYP_INT               232427             26650                 0
+URBANICITY            259077                 0                 0
+VE_FORMS              259077                 0                 0
+VE_TOTAL              259077                 0                 0
+WEATHR_IM             259077                 0                 0
+WKDY_IM               259077                 0                 0
+WRK_ZONE              259077                 0                 0
+YEAR                  259077                 0                 0
+
+Variable INT_HWY
+                    Observed           Imputed          Combined
+      Code       Freq    Per       Freq    Per       Freq    Per
+         0     235095  90.75         25 100.00     235120  90.75
+         1      23932   9.24          0   0.00      23932   9.24
+       999         25   0.01          0   0.00         25   0.01
+     Total     259052 100.00         25 100.00     259077 100.00
+
+Variable RELJCT1_IM
+                    Observed           Imputed          Combined
+      Code       Freq    Per       Freq    Per       Freq    Per
+         0     196668  96.09      52227  95.99     248895  96.07
+         1       8000   3.91       2182   4.01      10182   3.93
+     Total     204668 100.00      54409 100.00     259077 100.00
+
+Variable REL_ROAD
+                    Observed           Imputed          Combined
+      Code       Freq    Per       Freq    Per       Freq    Per
+         0      43973  16.99         25  13.16      43998  16.98
+         1     207150  80.02        156  82.11     207306  80.02
+         2       7574   2.93          9   4.74       7583   2.93
+       999        190   0.07          0   0.00        190   0.07
+IVEware Iterative Imputation Procedure, Wed Nov  9 12:12:58 2022                 2
+
+Multiple imputation
+
+Variable REL_ROAD
+                    Observed           Imputed          Combined
+     Total     258887 100.00        190 100.00     259077 100.00
+
+Variable TYP_INT
+                    Observed           Imputed          Combined
+      Code       Freq    Per       Freq    Per       Freq    Per
+         0     127953  55.05      14656  54.99     142609  55.05
+         1      79947  34.40       9111  34.19      89058  34.38
+         2        606   0.26         80   0.30        686   0.26
+       999      23921  10.29       2803  10.52      26724  10.32
+     Total     232427 100.00      26650 100.00     259077 100.00
