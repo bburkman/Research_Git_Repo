@@ -1,0 +1,35 @@
+<R name="ive_examples">
+
+# iveware examples - R version
+
+# import the input datasets
+
+
+# run iveware
+
+# multiple imputation
+
+# Hello!
+
+print ("Accident")
+Accident <- read.delim("../../Big_Files/data_IVEware.txt")
+head(Accident)
+tail(Accident)
+save(Accident, file = "Accident.rda")
+
+<impute name="impute">
+title Multiple imputation;
+datain Accident;
+dataout impute;
+default categorical;
+minrsqd 0.01;
+maxpred 15;
+iterations 10;
+run;
+</impute>
+
+data <- load(file = "impute.rda")
+write.csv(get(data), file="../../Big_Files/data_IVEware.csv")
+
+</R>
+
