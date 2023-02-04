@@ -1,0 +1,50 @@
+%%%
+\subsection{Feature Selection}
+
+In selecting features from the CRSS dataset, we chose features that could be known or inferred at the time of the crash without an eyewitness.  We separated them into three sets in terms of how hard the data would be to get in good quality:  Easy, medium, and challenging.  The medium level would require coordination of private (cell service providers, Apple Google) and public databases (police, government vehicle registries).  The challenging ones would require implementation and/or development of technology to, for instance, to correlate several notifications from different phones at about the same time from about the same location to see that they are probably the same crash event, or for the phone to distinguish between a pedestrian and a crash person in a moving car, possibly by analyzing the acceleration over the last several minutes before the crash.  
+
+
+\begin{description}
+	\item [Location] \
+		 \begin{description}
+			\item [Easy]
+			\item Urban/Rural
+		 	\item Interstate
+			\item [Medium:  Requires precise location and maps]
+			\item Position relative to the road
+			\item Position relative to an intersection
+			\item [Medium:  Requires up-to-date maps]
+			\item Work Zone
+		 \end{description}
+	\item [Time] \
+		 \begin{description}
+		 	\item [Easy]
+			\item Hour
+			\item Weekday/Weekend
+			\item Month
+			\item Weather
+			\item [Medium:  Requires detailed maps per time of day]
+		 	\item Lighting Conditions
+		 \end{description}
+	\item [Phone User] \
+		 \begin{description}
+		 	\item [Medium: Requires identifying phone user]
+		 	\item Age
+			\item Sex
+			\item [Medium:  Requires storing acceleration data for several minutes]
+			\item Pedestrian / In moving vehicle
+			\item [Hard:  Requires identifying the vehicle used by phone user]
+			\item Make of vehicle
+			\item Body type of vehicle
+			\item [Hard:  Requires identify licensing of phone user (driver) or ages from several phones (students)]
+			\item School bus
+		 \end{description}
+	\item [Correlate Multiple Notifications] \ 
+		\begin{description}
+			\item [Hard]
+			\item Number of people
+			\item Number of vehicles			
+		\end{description}
+\end{description}
+
+

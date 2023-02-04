@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Burkman_Paper_01_28_23.aux
+The style file: cas-model2-names.bst
+Database file #1: Paper_Summer_2022.bib
+Repeated entry---line 35813 of file Paper_Summer_2022.bib
+ : @article{LIU2021103070
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "NIPS2014_5ca3e9b1"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty title in BRIEMAN_1996
+You've used 63 entries,
+            2990 wiz_defined-function locations,
+            1202 strings with 23722 characters,
+and the built_in function-call counts, 43936 in all, are:
+= -- 3405
+> -- 1878
+< -- 28
++ -- 750
+- -- 657
+* -- 5047
+:= -- 6477
+add.period$ -- 231
+call.type$ -- 63
+change.case$ -- 533
+chr.to.int$ -- 61
+cite$ -- 64
+duplicate$ -- 3164
+empty$ -- 3028
+format.name$ -- 838
+if$ -- 8148
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 634
+newline$ -- 372
+num.names$ -- 252
+pop$ -- 1020
+preamble$ -- 1
+purify$ -- 469
+quote$ -- 0
+skip$ -- 876
+stack$ -- 0
+substring$ -- 1698
+swap$ -- 2410
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 567
+warning$ -- 1
+while$ -- 242
+width$ -- 0
+write$ -- 1015
+(There was 1 error message)
