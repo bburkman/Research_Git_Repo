@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  29 JAN 2023 06:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  24 FEB 2023 09:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1113,6 +1113,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
+ (./Burkman_Paper_01_28_23.out) (./Burkman_Paper_01_28_23.out)
 \@outlinefile=\write4
 \openout4 = `Burkman_Paper_01_28_23.out'.
 
@@ -1155,482 +1156,183 @@ LaTeX Info: Redefining \nameref on input line 48.
 \openout5 = `Burkman_Paper_01_28_23.abs'.
 
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-163.
+187.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 ) [0
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 175.
+ne 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 175.
+e 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 175
+LaTeX Font Info:    Trying to load font information for U+msa on input line 199
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 175
+LaTeX Font Info:    Trying to load font information for U+msb on input line 199
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 175.
+ine 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 175.
+e 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 175.
+ne 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 175.
+e 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 175.
+e 199.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-Overfull \hbox (117.0831pt too wide) detected at line 175
+Overfull \hbox (117.0831pt too wide) detected at line 199
 []
  []
 
 (./Burkman_Paper_01_28_23.abs)
 
-Package hyperref Warning: Ignoring empty anchor on input line 175.
+Package hyperref Warning: Ignoring empty anchor on input line 199.
 
-(./Intro_Motivation.tex
+<thumbnails/cas-email.jpeg, id=15, 225.84375pt x 225.84375pt>
+File: thumbnails/cas-email.jpeg Graphic file (type jpg)
+<use thumbnails/cas-email.jpeg>
+Package pdftex.def Info: thumbnails/cas-email.jpeg  used on input line 199.
+(pdftex.def)             Requested size: 7.99838pt x 8.0pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+99.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 
-Package natbib Warning: Citation `SPICER2021105974' on page 1 undefined on inpu
-t line 10.
+Package hyperref Warning: Ignoring empty anchor on input line 199.
 
-
-Package natbib Warning: Citation `FARS' on page 1 undefined on input line 11.
-
-
-Package natbib Warning: Citation `edsoai.on1047979037n.d.' on page 1 undefined 
-on input line 24.
-
-) (./Intro_Difficulty.tex
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-.
+(./Lit_Rev_Apps.tex) (./Lit_Rev_Imbalanced_Data.tex
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [1])
-(./Intro_Challenges.tex
+) [1 <./thumbnails/cas-email.jpeg>]) (./Lit_Rev_Imb_Data_Level_Techniques.tex [
+2] [3]
 
-Package natbib Warning: Citation `CRSS' on page 2 undefined on input line 10.
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-1.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-))
-(./Intro_Imbalanced_Data.tex [2]) (./Intro_Plan.tex) (./Lit_Rev_Apps.tex
-
-Package natbib Warning: Citation `RN29097389220110101' on page 3 undefined on i
-nput line 3.
-
-
-Package natbib Warning: Citation `edseee.692210720140801' on page 3 undefined o
-n input line 3.
-
-
-Package natbib Warning: Citation `XDA' on page 3 undefined on input line 3.
-
-
-Package natbib Warning: Citation `GooglePixelCrash' on page 3 undefined on inpu
-t line 3.
-
-
-Package natbib Warning: Citation `edsgcl.68102971120211102' on page 3 undefined
- on input line 3.
-
-
-Package natbib Warning: Citation `SOSmart' on page 3 undefined on input line 3.
-
-
-
-Package natbib Warning: Citation `Blink!' on page 3 undefined on input line 3.
-
-) (./Lit_Rev_Imbalanced_Data.tex
-
-Package natbib Warning: Citation `LACK2021106105' on page 3 undefined on input 
-line 4.
-
-[3]) (./Lit_Rev_Imb_Data_Level_Techniques.tex [4]
-
-Package natbib Warning: Citation `00017602530000120020101' on page 5 undefined 
-on input line 152.
-
-
-Package natbib Warning: Citation `ivan1976two' on page 5 undefined on input lin
-e 203.
-
-[5]
-
-Package natbib Warning: Citation `NIPS2014_5ca3e9b1' on page 6 undefined on inp
+Package natbib Warning: Citation `NIPS2014_5ca3e9b1' on page 4 undefined on inp
 ut line 258.
 
-) (./Lit_Rev_Imb_Modify_Loss.tex
-
-Package natbib Warning: Citation `scikit-learn' on page 6 undefined on input li
-ne 6.
-
-
-Package natbib Warning: Citation `edsjsr.2579163720010401' on page 6 undefined 
-on input line 33.
-
-
-Package natbib Warning: Citation `YU2020102740' on page 6 undefined on input li
-ne 50.
-
-
-Package natbib Warning: Citation `lin2017focal' on page 6 undefined on input li
-ne 50.
-
-[6]) (./Lit_Rev_Imb_Algorithm_Level.tex
-
-Package natbib Warning: Citation `BRIEMAN_1996' on page 7 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `FREUND1997119' on page 7 undefined on input l
-ine 58.
-
-) (./Lit_Rev_Imb_Metric.tex [7] [8]
-
-Package natbib Warning: Citation `LIU2021103070' on page 9 undefined on input l
-ine 152.
-
-[9]
-<Model_Probabilities_by_Class.png, id=93, 337.26pt x 315.1775pt>
+) (./Lit_Rev_Imb_Modify_Loss.tex [4] [5]) (./Lit_Rev_Imb_Algorithm_Level.tex)
+(./Lit_Rev_Imb_Metric.tex [6] [7]
+<Model_Probabilities_by_Class.png, id=129, 337.26pt x 315.1775pt>
 File: Model_Probabilities_by_Class.png Graphic file (type png)
 <use Model_Probabilities_by_Class.png>
 Package pdftex.def Info: Model_Probabilities_by_Class.png  used on input line 1
 62.
 (pdftex.def)             Requested size: 269.80836pt x 252.14233pt.
- (./Move_Threshold.tex) [10 <./Model_Probabilities_by_Class.png>]
-<ROC_Example.png, id=101, 275.0275pt x 279.0425pt>
+ [8] (./Move_Threshold.tex) [9 <./Model_Probabilities_by_Class.png>]
+<ROC_Example.png, id=145, 275.0275pt x 279.0425pt>
 File: ROC_Example.png Graphic file (type png)
 <use ROC_Example.png>
 Package pdftex.def Info: ROC_Example.png  used on input line 193.
 (pdftex.def)             Requested size: 220.0223pt x 223.2343pt.
-)
-(./Lit_Rev_Imb_Crash_Analysis.tex
-
-Package natbib Warning: Citation `PARSA2019202' on page 11 undefined on input l
-ine 22.
-
-
-Package natbib Warning: Citation `LI2020105371' on page 11 undefined on input l
-ine 24.
-
-
-Package natbib Warning: Citation `GUO2021106328' on page 11 undefined on input 
-line 26.
-
-
-Package natbib Warning: Citation `ORSINI2021106382' on page 11 undefined on inp
-ut line 28.
-
-
-Package natbib Warning: Citation `ELAMRANIABOUELASSAD2020102708' on page 11 und
-efined on input line 30.
-
-
-Package natbib Warning: Citation `MORRIS2021106240' on page 11 undefined on inp
-ut line 32.
-
-
-Package natbib Warning: Citation `YAHAYA2021105936' on page 11 undefined on inp
-ut line 35.
-
-
-Package natbib Warning: Citation `YAHAYA2021105851' on page 11 undefined on inp
-ut line 35.
-
-[11 <./ROC_Example.png>]
-
-Package natbib Warning: Citation `SCHLOGL2019134' on page 12 undefined on input
- line 41.
-
-
-Package natbib Warning: Citation `SCHLOGL2020105398' on page 12 undefined on in
-put line 41.
-
-
-Package natbib Warning: Citation `CHEN2020102646' on page 12 undefined on input
- line 43.
-
-
-Package natbib Warning: Citation `PENG2020105610' on page 12 undefined on input
- line 45.
-
-
-Package natbib Warning: Citation `LI2021106422' on page 12 undefined on input l
-ine 47.
-
-
-Package natbib Warning: Citation `CHEN2022106496' on page 12 undefined on input
- line 49.
-
-
-Package natbib Warning: Citation `CHEN2020102646' on page 12 undefined on input
- line 51.
-
-
-Package natbib Warning: Citation `FORMOSA2020105429' on page 12 undefined on in
-put line 58.
-
-
-Package natbib Warning: Citation `LIN2020105628' on page 12 undefined on input 
-line 61.
-
-
-Package natbib Warning: Citation `ISLAM2021105950' on page 12 undefined on inpu
-t line 63.
-
-
-Package natbib Warning: Citation `BASSO2021106409' on page 12 undefined on inpu
-t line 65.
-
-
-Package natbib Warning: Citation `MAN2022106511' on page 12 undefined on input 
-line 67.
-
-
-Package natbib Warning: Citation `CAI2020102697' on page 12 undefined on input 
-line 69.
-
-
-Package natbib Warning: Citation `LACK2021106105' on page 12 undefined on input
- line 74.
-
-
-Package natbib Warning: Citation `HAULE2021106181' on page 12 undefined on inpu
-t line 76.
-
-
-Package natbib Warning: Citation `YU2020102740' on page 12 undefined on input l
-ine 78.
-
-
-Package natbib Warning: Citation `SHI2019170' on page 12 undefined on input lin
-e 80.
-
-
-Package natbib Warning: Citation `ZHU2021106199' on page 12 undefined on input 
-line 82.
-
-
-Package natbib Warning: Citation `MOHAMMADI2019153' on page 12 undefined on inp
-ut line 90.
-
-
-Package natbib Warning: Citation `SHI2021103414' on page 12 undefined on input 
-line 93.
-
-
-Package natbib Warning: Citation `KHAN2021103225' on page 12 undefined on input
- line 97.
-
-
-Package natbib Warning: Citation `CHEN2022103709' on page 12 undefined on input
- line 99.
-
-
-Package natbib Warning: Citation `JIANG2020105520' on page 12 undefined on inpu
-t line 110.
-
-
-Package natbib Warning: Citation `ELAMRANIABOUELASSAD2020102708' on page 12 und
-efined on input line 111.
-
-
-Package natbib Warning: Citation `PARK2019230' on page 12 undefined on input li
-ne 118.
-
-) (./Datasets_Intro.tex [12]
-
-Package natbib Warning: Citation `CRSS' on page 13 undefined on input line 19.
-
-
-Package natbib Warning: Citation `CRSS_Manual' on page 13 undefined on input li
-ne 24.
-
-) (./Datasets_CRSS_Imputation.tex
-
-Package natbib Warning: Citation `IVEware' on page 13 undefined on input line 1
-2.
-
-[13]
-
-Package natbib Warning: Citation `CRSS_Imputation' on page 14 undefined on inpu
-t line 28.
-
-[14]
-
-Package natbib Warning: Citation `TOPUZ2021113557' on page 15 undefined on inpu
-t line 128.
-
-
-Package natbib Warning: Citation `COX2021288' on page 15 undefined on input lin
-e 130.
-
-
-Package natbib Warning: Citation `AMINI2022108720' on page 15 undefined on inpu
-t line 139.
-
-
-Package natbib Warning: Citation `SPICER2021105974' on page 15 undefined on inp
-ut line 153.
-
-
-Package natbib Warning: Citation `VILLAVICENCIO2022757' on page 15 undefined on
- input line 155.
-
-[15]
-
-Package natbib Warning: Citation `MUELLER2022305' on page 16 undefined on input
- line 162.
-
-
-Package natbib Warning: Citation `KAPLAN2017130' on page 16 undefined on input 
-line 164.
-
-
-Package natbib Warning: Citation `GONG2022100190' on page 16 undefined on input
- line 166.
-
-
-Package natbib Warning: Citation `subramanian2002transitioning' on page 16 unde
-fined on input line 168.
-
-) (./Methods_Intro.tex) (./Methods_Feature_Selection.tex [16])
-(./Methods_Missing_Data.tex) (./Methods_Feature_Binning.tex [17])
-(./Methods_Feature_Engineering.tex [18]
-<AGE_IM_SEX_IM_Row.png, id=156, 357.335pt x 248.93pt>
+) (./Lit_Rev_Imb_Crash_Analysis.tex [10 <./ROC_Example.png>]) (./Methods_Intro.
+tex) (./Methods_Dataset_Overview.tex [11])
+(./Methods_Data_Prep.tex [12]) (./Methods_Feature_Selection.tex [13] [14]
+[15]) (./Methods_Feature_Engineering.tex [16]
+<AGE_IM_SEX_IM_Row.png, id=307, 357.335pt x 248.93pt>
 File: AGE_IM_SEX_IM_Row.png Graphic file (type png)
 <use AGE_IM_SEX_IM_Row.png>
 Package pdftex.def Info: AGE_IM_SEX_IM_Row.png  used on input line 77.
 (pdftex.def)             Requested size: 214.40265pt x 149.35915pt.
-) (./Methods_Data_Imbalance.tex)
-(./Methods_Model_Building.tex
-
-Package natbib Warning: Citation `chollet2015keras' on page 19 undefined on inp
-ut line 4.
-
-
-Package natbib Warning: Citation `scikit-learn' on page 19 undefined on input l
-ine 4.
-
-
-Package natbib Warning: Citation `Tensorflow_Imbalanced_Data' on page 19 undefi
-ned on input line 6.
-
-) (./Methods_Model_Evaluation.tex) (./Methods_Louisiana_Data.tex) [19 <./AGE_IM
-_SEX_IM_Row.png>] (./Burkman_Paper_01_28_23.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 17--28
+) (./Methods_Data_Imbalance.tex
+[17 <./AGE_IM_SEX_IM_Row.png>]) (./Methods_Class_Weights.tex [18])
+(./Methods_Model_Evaluation_Technical.tex [19] (./Ideal_Pred.pgf) [20]
+(./Ideal_ROC.pgf) (./Awful_Pred.pgf) [21] (./Awful_ROC.pgf))
+(./Methods_Model_Evaluation_Ethical.tex) [22] (./Burkman_Paper_01_28_23.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 17--29
 \T1/cmtt/m/n/8 2443 / login ? url = https : / / search . ebscohost . com / logi
 n . aspx ? direct = true & AuthType = ip ,[] cookie ,[] uid ,[] url & db = edse
 ee & AN =
  []
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--149
 []\T1/stix/m/n/8 Google, .  Get help a!er a car crash (pixel 6 pro).  URL: [][]
 $\T1/cmtt/m/n/8 https : / / partnerdash . google . com / apps / simulator /
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 403--408
-[]\T1/stix/m/n/8 NHTSA, 1975-2020.  Fa-tal-ity anal-y-sis re-port-ing sys-tem. 
- [][]$\T1/cmtt/m/n/8 https : / / www . nhtsa . gov / research-[]data /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 602--612
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 464--474
 \T1/cmtt/m/n/8 2443 / login ? url = https : / / search . ebscohost . com / logi
 n . aspx ? direct = true & AuthType = ip ,[] cookie ,[] uid ,[] url & db = edsb
 l & AN =
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 613--621
+Underfull \hbox (badness 7558) in paragraph at lines 475--483
 []\T1/stix/m/n/8 Winkler, R., 2021.  Ap-ple wants iphones to de-tect car crashe
 s, auto-dial 911.  The Wall Street Jour-nal East-ern Edi-tion
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 613--621
+Underfull \hbox (badness 1762) in paragraph at lines 475--483
 \T1/stix/m/n/8 , 1URL: [][]$\T1/cmtt/m/n/8 https : / / ezproxyprod . ucs . loui
 siana . edu : 2443 / login ? url = https : / / search . ebscohost . com / login
  . aspx ? direct =
  []
 
-[22])
+)
 
 Package natbib Warning: There were undefined citations.
 
-[23] (./Burkman_Paper_01_28_23.aux
+[25] (./Burkman_Paper_01_28_23.aux)
+Package rerunfilecheck Info: File `Burkman_Paper_01_28_23.out' has not changed.
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Burkman_Paper_01_28_23.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Burkman_Paper_01_28_23.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  28877 strings out of 478994
- 535142 string characters out of 5858184
- 937718 words of memory out of 5000000
- 45571 multiletter control sequences out of 15000+600000
+ 534912 string characters out of 5858184
+ 971477 words of memory out of 5000000
+ 45598 multiletter control sequences out of 15000+600000
  513131 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,13n,88p,951b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/loca
+ 87i,13n,88p,1019b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/lo
+cal/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/loca
 l/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}</usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb></usr/loc
@@ -1639,15 +1341,16 @@ al/texlive/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Burkman_Paper_01_28_23.pdf (24 pages, 393610 bytes).
+local/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on Burkman_Paper_01_28_23.pdf (26 pages, 430745 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 154 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 128 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

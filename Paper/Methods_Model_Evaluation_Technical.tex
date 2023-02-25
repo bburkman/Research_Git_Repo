@@ -1,0 +1,89 @@
+%%%
+\subsection{Model Evaluation:  Technical Considerations}
+
+
+In the supervised learning method we used here, for each of the $\approx 600,000$ samples (people) in the dataset, we know the answer (the {\it label} or {\it ground truth}) to the question, whether the person needed an ambulance, $y=0$ for ``no'' and $y=1$ for ``yes.''  We are trying use historical data to build a model to predict the label for new data (incoming automated crash notifications).
+
+The binary classification models we used return, for each sample, a continuous probability $p \in (0,1)$ that the sample belongs in the positive class.   If a sample has $p = 0.1$, the model is 90\% confident that this sample is in the negative class.   We then pick a threshold, usually but not necessarily 0.5, and make a binary prediction, that samples with $p \ge 0.5$ need an ambulance, and those with $p < 0.5$ do not.  The {\it loss function} used by the model is the sum not of how many binary predictions were incorrect, but how strongly incorrect the continuous predictions were.  If the prediction for a sample is $p = 0.3$ and the label is $y=0$, then the loss for that sample is $0.3$, but if its label were $y=1$, then the loss would be $0.7$.  
+
+A perfect model would not only predict each sample's label correctly, but would do it with perfect certainty.  In the real world, with interesting questions about real data, we will have false positives ($y=0$ and $p>0.5$) and false negatives ($y=1$ and $p<0.5$), but we hope those are few, and that the predictions are strongly correct, meaning the predictions are close to their labels.
+
+When we get results for our models based on crash data, we need some frame of reference for what is ``good'' and ``bad,'' so we have created two sets of entirely artificial results using a gamma distribution for ideal results and a uniform distribution for awful results.  
+
+The histogram below of the percent of samples with predictions $p$ in each range illustrates the best results we can hope for in the real world.  The positive class is small because the data is imbalanced.  There are some false positives and negatives, but the overwhelming majority of the predictions are correct, and most with strong confidence.  
+
+\begin{center}
+    \input{Ideal_Pred.pgf}
+\end{center}
+
+The {\it confusion matrix} for this ideal data set, here given as percentages of the entire dataset, shows few false positives and false negatives.  
+
+\begin{center}
+\begin{tabular}{cc|c|c|}
+	&\multicolumn{1}{c}{}& \multicolumn{2}{c}{Prediction} \cr
+	&\multicolumn{1}{c}{} & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{P} \cr\cline{3-4}
+	\multirow{2}{*}{Actual}&N & 70.0\% & 10.0\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+	&P & 2.4\% & 17.6\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+\end{tabular}
+\end{center}
+
+These metrics are the ones we will watch when evaluating models.  Each of them tells a different story about what the model does well.
+
+\begin{center}
+	\begin{tabular}{ll}
+0.875 & Accuracy \cr 
+0.876 & Balanced Accuracy \cr 
+0.636 & Precision \cr 
+0.875 & Balanced Precision \cr 
+0.878 & Recall \cr 
+0.738 & F1 \cr 
+0.876 & Balanced F1 \cr 
+0.746 & Gmean \cr 
+	\end{tabular}
+\end{center}
+
+The Receiver Operating Characteristic (ROC) is a parameterized curve following the probability threshold from $p=0$ to $p=1$, plotting the true positive rate (TPR) versus the false positive rate (FPR).  The Area Under the ROC curve (AUC) is often used to compare two models, with AUC of 1 indicating perfect prediction and AUC of 0.5 indicating no discernable pattern.  
+
+We have added to the typical ROC curve two labels, one for the positive and one for the negative class, of the median of the probabilities of the samples in that class.  The further apart those numbers are, the more robust the model.
+%We have added to the typical ROC curve the quartiles of the probabilities $p \in (0,1)$ of all of the samples to hint at the distribution and illustrate that the curve starts at $p=0$ in the upper right and goes to $p=1$ in the lower left.  A smaller number for the first quartile would correspond to more confidence in the model's predictions of the negative class.  Interpreting the other two numbers requires considering the class imbalance.  
+
+\begin{center}
+	\input{Ideal_ROC.pgf}
+\end{center}
+
+In the ideal results above, the data had a pattern that the algorithm learned while building the model.  The results below illustrate the worst case scenario, where the algorithm does not learn a good model, usually because the data does not have a pattern that predicts the target variable.  In the ROC curve, the median values of the probabilities for the two classes are so close that the labels are on top of each other.  
+
+\begin{center}
+        \input{Awful_Pred.pgf}
+\end{center}
+
+\begin{center}
+\begin{tabular}{cc|c|c|}
+	&\multicolumn{1}{c}{}& \multicolumn{2}{c}{Prediction} \cr
+	&\multicolumn{1}{c}{} & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{P} \cr\cline{3-4}
+	\multirow{2}{*}{Actual}&N & 39.2\% & 40.8\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+	&P & 8.9\% & 11.1\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{ll}
+0.503 & Accuracy \cr 
+0.522 & Balanced Accuracy \cr 
+0.214 & Precision \cr 
+0.521 & Balanced Precision \cr 
+0.555 & Recall \cr 
+0.309 & F1 \cr 
+0.538 & Balanced F1 \cr 
+0.324 & Gmean \cr 
+\end{tabular}
+\end{center}
+
+\begin{center}
+        \input{Awful_ROC.pgf}
+\end{center}
+
+
+
+
+
