@@ -1,12 +1,19 @@
 %%%
 \subsection{Model Evaluation:  Baselines for Comparison}
 
+What do good results look like, what do bad results look like, how do we measure it, and when we compare two results, how much of the difference could be due to randomness?
 
 In the supervised learning method we used here, for each of the $\approx 600,000$ samples (people) in the dataset, we know the answer (the {\it label} or {\it ground truth}) to the question, whether the person needed an ambulance, $y=0$ for ``no'' and $y=1$ for ``yes.''  We are trying use historical data to build a model to predict the label for new data (incoming automated crash notifications).
 
-The binary classification models we used return, for each sample, a continuous probability $p \in (0,1)$ that the sample belongs in the positive class.   If a sample has $p = 0.1$, the model is 90\% confident that this sample is in the negative class.   We then pick a threshold, usually but not necessarily 0.5, and make a binary prediction, that samples with $p > 0.5$ need an ambulance, and those with $p < 0.5$ do not.   (What happens if $p=0.50000000000000000$ would apply to negligibly few samples, so which way it goes does not matter.) The {\it loss function} used by the model is the sum not of how many binary predictions were incorrect, but how strongly incorrect the continuous predictions were.  If the prediction for a sample is $p = 0.3$ and the label is $y=0$, then the loss for that sample is $0.3$, but if its label were $y=1$, then the loss would be $0.7$.  
+{\bf
+Explain this better.  I confused the internal workings of the model building with the results.
+}
 
-A perfect model would not only predict each sample's label correctly, but would do it with perfect certainty.  In the real world, with interesting questions about real data, we will have false positives ($y=0$ and $p>0.5$) and false negatives ($y=1$ and $p<0.5$), but we hope those are few, and that the predictions are strongly correct, meaning the predictions are close to their labels.
+We split the data 70/30 into a training set and a test set, making sure to keep the same proportion of positive and negative samples in both.  The binary classification models we used take the training data and training labels (\verb|X_train| and \verb|y_train|) and build a model, then apply the model to the test data (\verb|X_test|) and returns \verb|y_proba| that gives, for each sample, a continuous probability $p \in (0,1)$ that the sample belongs in the positive class.   If a sample has $p = 0.1$, the model is 90\% confident that this sample is in the negative class.   We then pick a threshold, usually but not necessarily $threshold = 0.5$, and make a binary prediction, that samples with $p > threshold$ need an ambulance, and those with $p < threshold$ do not.   
+
+While building the model, the algorithm picks a starting point, measures how badly the model predicts the training data using the {\it loss function}, tweaks the model, measures again, and either keeps or rejects the candidate model based on the loss function.  The loss function used by the model is the sum not of how many binary predictions were incorrect, but how strongly incorrect the continuous predictions were.  If two negative samples ($y=0$) had $p=0.1$ and $p=0.4$, both correct classifications if $threshold=0.5$, then the $p=0.4$ sample would add much more to the loss value.  
+
+A perfect model would not only predict each sample's label correctly, but would do it with perfect certainty.  In the real world, with interesting questions about real data, we will have false positives ($y=0$ and $p>threshold$) and false negatives ($y=1$ and $p<threshold$), but we hope those are few, and that the predictions are strongly correct, meaning the predictions are close to their labels.
 
 When we get results for our models based on crash data, we need some frame of reference for what is ``good'' and ``bad,'' so we have created some sets of entirely artificial results using a gamma distribution for ideal results and a uniform distribution for awful results.  
 
@@ -14,37 +21,51 @@ The histogram below of the percent of samples with predictions $p$ in each range
 
 The Receiver Operating Characteristic (ROC) is a parameterized curve following the probability threshold from $p=0$ to $p=1$, plotting the true positive rate (TPR) versus the false positive rate (FPR).  The Area Under the ROC curve (AUC) is often used to compare two models, with AUC of 1 indicating perfect prediction and AUC of 0.5 indicating no discernable pattern.  
 
-We have added to the typical ROC curve two labels, one for the positive and one for the negative class, of the median of the probabilities of the samples in that class.  T%he further apart those numbers are, the more robust the model.
-%We have added to the typical ROC curve the quartiles of the probabilities $p \in (0,1)$ of all of the samples to hint at the distribution and illustrate that the curve starts at $p=0$ in the upper right and goes to $p=1$ in the lower left.  A smaller number for the first quartile would correspond to more confidence in the model's predictions of the negative class.  Interpreting the other two numbers requires considering the class imbalance.  
+We have added to the typical ROC curve labels for the medians of the probabilities in the negative and positive classes (0.338 and 0.655) and the default decision threshold $thr = 0.5$.
 
 \begin{tabular}{p{0.5\textwidth} p{0.5\textwidth}}
-  \vspace{0pt} \input{Ideal_Pred.pgf}
+  \vspace{0pt} \input{../Keras/Images/Ideal_Pred.pgf}
   &
-  \vspace{0pt} \input{Ideal_ROC.pgf}
+  \vspace{0pt} \input{../Keras/Images/Ideal_ROC.pgf}
 \end{tabular}
 
+{\bf Incorporate $thr=0.5$ into the discussion.}
 
 The {\it confusion matrix} for this ideal data set, here given as percentages of the entire dataset, shows few false positives and false negatives.  The metrics below are the ones we will watch when evaluating models.  Each of them tells a different story about what the model does well.
+
+\vskip 6pt
+
+$\displaystyle Precision = \frac{TP}{PP} = \frac{TP}{TP+FP}$ tells what proportion of the ambulances we sent were needed.  
+
+\vskip 6pt
+
+$\displaystyle Recall = \frac{TP}{P} = \frac{TP}{TP + FN}$ tells what proportion of ambulances we needed were sent.
+
+\vskip 6pt
+
+$\displaystyle F1 = \frac{2}{ \frac{1}{Precision} + \frac{1}{Recall}}$ is the harmonic mean of precision and recall. 
+
+\vskip 6pt
+
+Why the harmonic mean, not the arithmetic or geometric mean?  If $a$ and $b$ are positive numbers with $a<b$, then $a < \text{harmonic} < \text{geometric} < \text{arithmetic} < b$.  The harmonic, while being influenced by the larger number, is closest to the smaller, so the harmonic mean emphasizes what the model does poorly.  
+
 
 
 \begin{center}
 \begin{tabular}{cc}
-\begin{tabular}{cc|c|c|}
+\begin{tabular}{cc|c|c|c}
 	&\multicolumn{1}{c}{}& \multicolumn{2}{c}{Prediction} \cr
-	&\multicolumn{1}{c}{} & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{P} \cr\cline{3-4}
-	\multirow{2}{*}{Actual}&N & 67.0\% & 18.7\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
-	&P & 3.03\% & 11.3\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+	&\multicolumn{1}{c}{} & \multicolumn{1}{c}{Neg} & \multicolumn{1}{c}{Pos} & \multicolumn{1}{c}{Total} \cr\cline{3-4}
+	\multirow{2}{*}{Actual}&Neg &TN = 67.0\% & FP = 18.7\% & N = 85.7\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+	&Pos & FN = 3.2\% & TP = 11.1\% & P = 14.3\% \vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+	\multicolumn{2}{r}{Total} & \multicolumn{1}{c}{PN = 70.2\%} & \multicolumn{1}{c}{PP = 29.8\%} \vrule width 0pt height 14pt depth 2pt \cr
 \end{tabular}
 &
 \begin{tabular}{ll}
-0.783 & Accuracy \cr 
-0.785 & Balanced Accuracy \cr 
-0.376 & Precision \cr 
-0.783 & Balanced Precision \cr 
-0.788 & Recall \cr 
-0.509 & F1 \cr 
-0.785 & Balanced F1 \cr 
-0.542 & Gmean \cr 	\end{tabular}
+0.372 & Precision \cr 
+0.774 & Recall \cr 
+0.502 & F1 \cr 
+\end{tabular}
 \end{tabular}
 \end{center}
 
@@ -53,9 +74,9 @@ If we do not address the data imbalance, the model building algorithm will maxim
 
 \begin{center}
 \begin{tabular}{p{0.5\textwidth} p{0.5\textwidth}}
-  \vspace{0pt} \input{Ideal_50_Pred.pgf}
+  \vspace{0pt} \input{../Keras/Images/Ideal_50_Pred.pgf}
   &
-  \vspace{0pt} \input{Ideal_50_ROC.pgf}
+  \vspace{0pt} \input{../Keras/Images/Ideal_50_ROC.pgf}
 \end{tabular}
 \end{center}
 

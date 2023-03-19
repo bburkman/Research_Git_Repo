@@ -2,7 +2,11 @@
 \subsection{Class Weights as Ethical Tradeoff Rate}
 %I made a [perhaps paper-worthy?] connection between the loss function I want and the $\alpha$-weighted binary cross-entropy loss function, which is widely known and widely implemented, but, according to Yu's paper, not before used in crash-related modeling.  
 
+Deciding how to trade off dollars and lives is not a technical decision, but a political and ethical one.  Given a tradeoff rate, $FP/TP < r$, we can incorporate it into our model.  {\bf For our study we will choose $r=2$ and optimize our models based on that rate of ethical tradeoff. } We have no basis for recommending that arbitrary choice tradeoff rate for actual applications, but we decided to choose something.  A very small rate, even $r=1$ may be ethically justifiable, since our model is recommending whether to send an ambulance {\it now}, without waiting for more information from eyewitnesses, and police can reassess when they have more information.  
+
 We can use the class weight hyperparameter to incorporate into the model our value judgement about, at the margin, how many ambulances we are willing to send on a wild goose chase in order to send one that is needed, which is a judgement about how many dollars a life is worth.  
+
+{\bf Note we're using r for two things}
 
 Many loss functions incorporate a class weight hyperparameter, here given by $\alpha$.  One of its uses is to accommodate class imbalance, described above, where we let $1/r$ be the proportion of samples in the minority class.
 
@@ -103,6 +107,4 @@ and
 $ \displaystyle \sum_{i=1}^N (1-y_i) \log( 1 - p_i)$, so we get the $\alpha$-weighted binary cross-entropy loss function, 
 
 $$J = -\sum_{i=1}^N \alpha y_i \log( p_i) + (1-\alpha)(1-y_i) \log( 1 - p_i), \quad \alpha = \frac{r}{r+1}$$
-
-In training our models we will consider different values for the ethical tradeoff rate $r$.  A very small rate, like $r=1$ may be ethically justifiable, since our model is recommending whether to send an ambulance {\it now}, without waiting for more information from eyewitnesses, and police can reassess when they have more information.  We will test $r=1$, $r=10$, and the rate of class imbalance in the data, about $r=5$.  
 
