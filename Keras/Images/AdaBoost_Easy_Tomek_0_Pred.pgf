@@ -716,7 +716,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=1.290000in,y=1.737778in,,base]{\color{textcolor}\rmfamily\fontsize{12.000000}{14.400000}\selectfont Probability Distribution}%
+\pgftext[x=1.290000in,y=1.737778in,,base]{\color{textcolor}\rmfamily\fontsize{12.000000}{14.400000}\selectfont AdaBoost}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%

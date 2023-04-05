@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  9 MAR 2023 06:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  23 MAR 2023 05:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1277,167 +1277,163 @@ File: AGE_IM_SEX_IM_Row.png Graphic file (type png)
 Package pdftex.def Info: AGE_IM_SEX_IM_Row.png  used on input line 77.
 (pdftex.def)             Requested size: 214.40265pt x 149.35915pt.
 ) (./Methods_Data_Imbalance.tex
-[21 <./AGE_IM_SEX_IM_Row.png>]) (./Methods_Class_Weights_Ethical_Tradeoff.tex
-[22]) (./Methods_ROC_Ethical_Tradeoff.tex [23])
-(./Methods_Model_Evaluation_Technical.tex [24] (../Keras/Images/Ideal_Pred.pgf)
+[21 <./AGE_IM_SEX_IM_Row.png>]) (./Methods_Model_Building.tex
+(../Keras/Images/Ideal_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 765--14
+[]|[]| 
+ []
+
 (../Keras/Images/Ideal_ROC.pgf)
-Overfull \hbox (39.0pt too wide) in paragraph at lines 26--31
-[][] 
+Overfull \hbox (20.07288pt too wide) in paragraph at lines 1020--16
+[]|[]| 
  []
 
-(../Keras/Images/Ideal_50_Pred.pgf) (../Keras/Images/Ideal_50_ROC.pgf)
-Overfull \hbox (24.0pt too wide) in paragraph at lines 76--81
- [] 
+
+Overfull \vbox (2.56pt too high) detected at line 22
  []
 
-[25] (./Ideal_50_Shifted_Pred.pgf) (./Ideal_50_Shifted_ROC.pgf)
-Overfull \hbox (24.0pt too wide) in paragraph at lines 109--114
- [] 
- []
 
-[26] (./Ideal_50_Linear_Transform_Pred.pgf)
-(./Ideal_50_Linear_Transform_ROC.pgf)
-Overfull \hbox (24.0pt too wide) in paragraph at lines 140--145
- [] 
- []
-
-(./Awful_Pred.pgf) (./Awful_ROC.pgf)
-Overfull \hbox (24.0pt too wide) in paragraph at lines 176--181
- [] 
- []
-
-[27]) (./Methods_Model_Evaluation_Ethical.tex) (./Results.tex [28]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 35.
-
-(../Keras/Images/AWBCE_class_weights_Before_Tomek_Pred.pgf)
-(../Keras/Images/AWBCE_class_weights_Before_Tomek_Linear_Transform_Pred.pgf)
-(../Keras/Images/AWBCE_class_weights_Before_Tomek_Linear_Transform_ROC.pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 37--91
+Overfull \hbox (7.17104pt too wide) in paragraph at lines 12--35
 [] 
  []
 
-[29] (../Keras/Images/AWBCE_Weights_1_0_and_1_0_Before_Tomek_Pred.pgf)
-(../Keras/Images/AWBCE_Weights_1_0_and_1_0_Before_Tomek_Linear_Transform_Pred.p
-gf)
-(../Keras/Images/AWBCE_Weights_1_0_and_1_0_Before_Tomek_Linear_Transform_ROC.pg
-f)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 95--154
+(../Keras/Images/Ideal_Shift_to_FP_equals_r_TP_FP_TP.pgf)
+(../Keras/Images/Ideal_Shift_to_FP_equals_r_TP_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 765--44
+[]|[]| 
+ []
+
+(../Keras/Images/Ideal_Shift_to_FP_equals_r_TP_ROC.pgf)
+Overfull \hbox (20.07288pt too wide) in paragraph at lines 1020--46
+[]|[]| 
+ []
+
+
+Overfull \vbox (2.56pt too high) detected at line 52
+ []
+
+
+Overfull \hbox (7.17104pt too wide) in paragraph at lines 42--65
 [] 
  []
 
-[30] (../Keras/Images/AWBCE_Weights_0_55_and_5_50_Before_Tomek_Pred.pgf)
-(../Keras/Images/AWBCE_Weights_0_55_and_5_50_Before_Tomek_Linear_Transform_Pred
-.pgf)
-(../Keras/Images/AWBCE_Weights_0_55_and_5_50_Before_Tomek_Linear_Transform_ROC.
-pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 159--217
+[22] (../Keras/Images/Ideal_Left_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 790--79
+[]|[]| 
+ []
+
+
+Overfull \vbox (2.56pt too high) detected at line 85
+ []
+
+(../Keras/Images/Ideal_Right_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 790--105
+[]|[]| 
+ []
+
+
+Overfull \vbox (2.56pt too high) detected at line 111
+ []
+
+[23] (../Keras/Images/Ideal_Tight_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 790--131
+[]|[]| 
+ []
+
+
+Overfull \vbox (2.56pt too high) detected at line 137
+ []
+
+) (./Results.tex [24] (../Keras/Images/BRFC_Hard_Tomek_0_r_target_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 790--75
+[]|[]| 
+ []
+
+(../Keras/Images/BRFC_Hard_Tomek_0_r_target_FP_TP.pgf)
+Overfull \hbox (24.45741pt too wide) in paragraph at lines 529--77
+[]|[]| 
+ []
+
+
+Overfull \vbox (2.56pt too high) detected at line 83
+ []
+
+
+Overfull \hbox (7.17104pt too wide) in paragraph at lines 73--98
 [] 
  []
 
-[31] (../Keras/Images/BFC_before_Tomek_alpha_equal_alpha_gamma_0_0_Pred.pgf)
-(../Keras/Images/BFC_before_Tomek_alpha_equal_alpha_gamma_0_0_Linear_Transform_
-Pred.pgf)
-(../Keras/Images/BFC_before_Tomek_alpha_equal_alpha_gamma_0_0_Linear_Transform_
-ROC.pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 222--284
+(../Keras/Images/BRFC_Hard_Tomek_0_r_target_Linear_Transform_Pred.pgf)
+Overfull \hbox (22.37762pt too wide) in paragraph at lines 765--103
+[]|[]| 
+ []
+
+(../Keras/Images/BRFC_Hard_Tomek_0_r_target_Linear_Transform_ROC.pgf)
+Overfull \hbox (20.07288pt too wide) in paragraph at lines 410--105
+[]|[]| 
+ []
+
+
+Overfull \vbox (2.56pt too high) detected at line 111
+ []
+
+
+Overfull \hbox (7.17104pt too wide) in paragraph at lines 101--125
 [] 
  []
 
-[32] (../Keras/Images/BFC_before_Tomek_alpha_equal_alpha_Pred.pgf)
-(../Keras/Images/BFC_before_Tomek_alpha_equal_alpha_Linear_Transform_Pred.pgf)
-(../Keras/Images/BFC_before_Tomek_alpha_equal_alpha_Linear_Transform_ROC.pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 289--345
-[] 
- []
-
-[33] (../Keras/Images/BFC_before_Tomek_Apply_Class_Balancing_Pred.pgf)
-(../Keras/Images/BFC_before_Tomek_Apply_Class_Balancing_Linear_Transform_Pred.p
-gf)
-Underfull \hbox (badness 1448) in paragraph at lines 402--403
-[]|\T1/stix/m/n/10 For this model we took out the $\LS1/stix/m/it/10 $ \T1/sti
-x/m/n/10 pa-ram-e-ter and set
- []
-
-
-(../Keras/Images/BFC_before_Tomek_Apply_Class_Balancing_Linear_Transform_ROC.pg
-f)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 350--410
-[] 
- []
-
-[34] (../Keras/Images/AdaBoost_Before_Tomek_Pred.pgf)
-(../Keras/Images/AdaBoost_Before_Tomek_Linear_Transform_Pred.pgf)
-(../Keras/Images/AdaBoost_Before_Tomek_Linear_Transform_ROC.pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 417--474
-[] 
- []
-
-[35] (../Keras/Images/Bagging_Before_Tomek_Pred.pgf)
-(../Keras/Images/Bagging_Before_Tomek_Linear_Transform_Pred.pgf)
-(../Keras/Images/Bagging_Before_Tomek_Linear_Transform_ROC.pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 479--539
-[] 
- []
-
-[36] (../Keras/Images/BRFC_Before_Tomek_Pred.pgf)
-(../Keras/Images/BRFC_Before_Tomek_Linear_Transform_Pred.pgf)
-(../Keras/Images/BRFC_Before_Tomek_Linear_Transform_ROC.pgf)
-Overfull \hbox (18.0pt too wide) in paragraph at lines 544--601
-[] 
- []
-
-) [37] [38] (./Burkman_Paper_03_05_23.bbl
+) [25] (./Burkman_Paper_03_05_23.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 17--28
 \T1/cmtt/m/n/8 2443 / login ? url = https : / / search . ebscohost . com / logi
 n . aspx ? direct = true & AuthType = ip ,[] cookie ,[] uid ,[] url & db = edse
 ee & AN =
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 188--193
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 []\T1/stix/m/n/8 Google, .  Get help a!er a car crash (pixel 6 pro).  URL: [][]
 $\T1/cmtt/m/n/8 https : / / partnerdash . google . com / apps / simulator /
  []
 
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 399--404
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
 []\T1/stix/m/n/8 NHTSA, 1975-2020.  Fa-tal-ity anal-y-sis re-port-ing sys-tem. 
  [][]$\T1/cmtt/m/n/8 https : / / www . nhtsa . gov / research-[]data /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--602
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 607--617
 \T1/cmtt/m/n/8 2443 / login ? url = https : / / search . ebscohost . com / logi
 n . aspx ? direct = true & AuthType = ip ,[] cookie ,[] uid ,[] url & db = edsb
 l & AN =
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 603--611
+Underfull \hbox (badness 7558) in paragraph at lines 618--626
 []\T1/stix/m/n/8 Winkler, R., 2021.  Ap-ple wants iphones to de-tect car crashe
 s, auto-dial 911.  The Wall Street Jour-nal East-ern Edi-tion
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 603--611
+Underfull \hbox (badness 1762) in paragraph at lines 618--626
 \T1/stix/m/n/8 , 1URL: [][]$\T1/cmtt/m/n/8 https : / / ezproxyprod . ucs . loui
 siana . edu : 2443 / login ? url = https : / / search . ebscohost . com / login
  . aspx ? direct =
  []
 
-[41]) [42] (./Burkman_Paper_03_05_23.aux)
+) [29] (./Burkman_Paper_03_05_23.aux)
 Package rerunfilecheck Info: File `Burkman_Paper_03_05_23.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29189 strings out of 478994
- 545667 string characters out of 5858184
- 1167361 words of memory out of 5000000
- 45731 multiletter control sequences out of 15000+600000
- 533672 words of font info for 206 fonts, out of 8000000 for 9000
+ 29020 strings out of 478994
+ 538649 string characters out of 5858184
+ 1025570 words of memory out of 5000000
+ 45669 multiletter control sequences out of 15000+600000
+ 513131 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,18n,88p,1019b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,20n,88p,1019b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/lo
 cal/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/loca
 l/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}</usr/local/texlive
@@ -1448,16 +1444,15 @@ al/texlive/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Burkman_Paper_03_05_23.pdf (43 pages, 649195 bytes).
+local/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on Burkman_Paper_03_05_23.pdf (30 pages, 464025 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 651 compressed objects within 7 object streams
- 180 named destinations out of 1000 (max. 500000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 600 compressed objects within 6 object streams
+ 157 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

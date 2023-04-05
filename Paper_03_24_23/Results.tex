@@ -1,0 +1,79 @@
+%%%%%
+\subsection{Binary Focal Crossentropy}
+
+The Binary Focal Crossentropy loss function for Keras's neural network algorithm takes both a class weight hyperparameter $\alpha$ and a dampening factor hyperparameter $\gamma$ that gives more weight to samples badly misclassified.  We tried combinations, including the values of $\gamma$ tested in the paper \cite{lin2017focal}  The balanced class weight will vary with undersampling of the majority class.  
+
+\hfil\begin{tabular}{c|c}
+	$\alpha$ & Meaning \cr\hline
+	0.5 & No class weight  \cr
+	2/3 & $r\_target = 2$  \cr
+	$\approx 0.85$ & Balanced class weights  \cr
+	\cr
+	\cr
+\end{tabular}	
+\qquad\begin{tabular}{c|c}
+	$\gamma$  & Notes \cr\hline
+	0.0 & Same as binary crossentropy \cr
+	0.5 & Very light damping \cr
+	1.0 & Light damping\cr
+	2.0 & Recommended by Lin \cr
+	5.0 & Heavy damping \cr
+\end{tabular}	
+
+\
+
+Varying class weights with no Tomek undersampling and $\gamma=0.0$, raw probabilities.
+
+\
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}c@{\hspace{-6pt}}c@{\hspace{-6pt}}c}
+	$\alpha = 0.5$ & $\alpha = 2/3$ & $\alpha \approx 0.85$ \cr
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Pred.pgf}
+	&
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_target_gamma_0_0_v1_Pred.pgf}
+	&
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_v1_Pred.pgf}
+	\cr	
+\end{tabular}
+
+\
+
+With $\alpha = 0.5$, the model classifies the negative class well, but the positive class almost randomly.  With $\alpha = 0.85$, balanced class weights, the model classifies the positive class well, but the positive class so poorly that the model does not separate the two classes well.  
+
+\
+
+Varying class weights with no Tomek undersampling and $\gamma=0.0$, probabilities linearly transformed to center where $\Delta FP/\Delta TP = 2.0$
+
+\
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}c@{\hspace{-6pt}}c@{\hspace{-6pt}}c}
+	$\alpha = 0.5$ & $\alpha = 2/3$ & $\alpha \approx 0.85$ \cr
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Linear_Transform_Pred.pgf}
+	&
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_target_gamma_0_0_v1_Linear_Transform_Pred.pgf}
+	&
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_v1_Linear_Transform_Pred.pgf}
+	\cr	
+	
+\begin{tabular}{cc|c|c|}
+	&\multicolumn{1}{c}{}& \multicolumn{2}{c}{Prediction} \cr
+	&\multicolumn{1}{c}{} & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{P} \cr\cline{3-4}
+	\multirow{2}{*}{\rotatebox[origin=c]{90}{Actual}}&N &
+117,929 & 32,842 
+\vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+	&P & 
+5,928 & 20,693 
+\vrule width 0pt height 10pt depth 2pt \cr\cline{3-4}
+\end{tabular}
+\cr
+
+\begin{tabular}{ll}
+\cr
+	0.4 & Precision \cr
+	0.6 & Recall \cr
+	0.5 & F1 \cr
+\end{tabular}
+\cr	
+
+	
+\end{tabular}
