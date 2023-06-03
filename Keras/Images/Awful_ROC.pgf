@@ -471,16 +471,16 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetstrokeopacity{0.800000}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.840525in}{0.568889in}}%
+\pgfpathmoveto{\pgfqpoint{0.832747in}{0.568889in}}%
 \pgfpathlineto{\pgfqpoint{2.006358in}{0.568889in}}%
 \pgfpathquadraticcurveto{\pgfqpoint{2.034136in}{0.568889in}}{\pgfqpoint{2.034136in}{0.596666in}}%
-\pgfpathlineto{\pgfqpoint{2.034136in}{0.791111in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{2.034136in}{0.818888in}}{\pgfqpoint{2.006358in}{0.818888in}}%
-\pgfpathlineto{\pgfqpoint{0.840525in}{0.818888in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{0.812747in}{0.818888in}}{\pgfqpoint{0.812747in}{0.791111in}}%
-\pgfpathlineto{\pgfqpoint{0.812747in}{0.596666in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{0.812747in}{0.568889in}}{\pgfqpoint{0.840525in}{0.568889in}}%
-\pgfpathlineto{\pgfqpoint{0.840525in}{0.568889in}}%
+\pgfpathlineto{\pgfqpoint{2.034136in}{0.776388in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{2.034136in}{0.804166in}}{\pgfqpoint{2.006358in}{0.804166in}}%
+\pgfpathlineto{\pgfqpoint{0.832747in}{0.804166in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{0.804970in}{0.804166in}}{\pgfqpoint{0.804970in}{0.776388in}}%
+\pgfpathlineto{\pgfqpoint{0.804970in}{0.596666in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{0.804970in}{0.568889in}}{\pgfqpoint{0.832747in}{0.568889in}}%
+\pgfpathlineto{\pgfqpoint{0.832747in}{0.568889in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
@@ -491,16 +491,16 @@
 \definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.868303in}{0.707777in}}%
-\pgfpathlineto{\pgfqpoint{1.007192in}{0.707777in}}%
-\pgfpathlineto{\pgfqpoint{1.146081in}{0.707777in}}%
+\pgfpathmoveto{\pgfqpoint{0.860525in}{0.700000in}}%
+\pgfpathlineto{\pgfqpoint{0.999414in}{0.700000in}}%
+\pgfpathlineto{\pgfqpoint{1.138303in}{0.700000in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=1.257192in,y=0.659166in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont AUC 0.562)}%
+\pgftext[x=1.249414in,y=0.651388in,left,base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont AUC=0.562}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

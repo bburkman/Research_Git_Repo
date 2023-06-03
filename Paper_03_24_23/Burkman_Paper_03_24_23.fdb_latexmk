@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Burkman_Paper_03_24_23"] 1681694973 "Burkman_Paper_03_24_23.aux" "Burkman_Paper_03_24_23.bbl" "Burkman_Paper_03_24_23" 1681727412 0
-  "./Paper_Summer_2022.bib" 1679270253 5858071 8b9f3bc5bfedbf1675963129629cf0f0 ""
+["bibtex Burkman_Paper_03_24_23"] 1681813513 "Burkman_Paper_03_24_23.aux" "Burkman_Paper_03_24_23.bbl" "Burkman_Paper_03_24_23" 1681813515 0
+  "./Paper_Summer_2022.bib" 1681813438 5861457 29226489492ca616916115ae999a013e ""
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/els-cas-templates/cas-model2-names.bst" 1582668168 32010 5092d9c799f298db8b2e6703a7dbec58 ""
-  "Burkman_Paper_03_24_23.aux" 1681727412 5728 f93ac5b54bf6bcaf8eb42e0df97df754 "pdflatex"
+  "Burkman_Paper_03_24_23.aux" 1681813515 5951 1e15b91369ec9443b45d38f2fdae7941 "pdflatex"
   (generated)
   "Burkman_Paper_03_24_23.bbl"
   "Burkman_Paper_03_24_23.blg"
   (rewritten before read)
-["pdflatex"] 1681727410 "Burkman_Paper_03_24_23.tex" "Burkman_Paper_03_24_23.pdf" "Burkman_Paper_03_24_23" 1681727412 0
+["pdflatex"] 1681813513 "Burkman_Paper_03_24_23.tex" "Burkman_Paper_03_24_23.pdf" "Burkman_Paper_03_24_23" 1681813515 0
   "../Keras/Images/BRFC_Easy_Tomek_0_alpha_0_5_v2_Linear_Transform_Pred.pgf" 1681041180 28195 faece556ba75496339276c396c168bff ""
   "../Keras/Images/BRFC_Easy_Tomek_0_alpha_0_5_v2_Pred.pgf" 1681041179 29157 7f64f3121cc06f542fe571ba5e5235b2 ""
   "../Keras/Images/BRFC_Hard_Tomek_2_alpha_0_5_v1_Linear_Transform_Pred.pgf" 1681040988 28195 42b2c5260b2d55e5ec1ea78d2119c5e3 ""
@@ -270,14 +270,15 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1633547834 2724737 5f7d8f48f583c756b2109b53d4eed266 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "Burkman_Paper_03_24_23.abs" 1681727411 1769 3a45123591ad5a3a6338f9d1ad69d83a "pdflatex"
-  "Burkman_Paper_03_24_23.aux" 1681727412 5728 f93ac5b54bf6bcaf8eb42e0df97df754 "pdflatex"
-  "Burkman_Paper_03_24_23.bbl" 1681694973 1764 31bf8e2e94e2d3dcda241320db75fcae "bibtex Burkman_Paper_03_24_23"
-  "Burkman_Paper_03_24_23.out" 1681727411 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Burkman_Paper_03_24_23.tex" 1681642808 9939 fa1bdb1bb6468b03cb0ad4fe6b149644 ""
+  "Burkman_Paper_03_24_23.abs" 1681813514 1769 3a45123591ad5a3a6338f9d1ad69d83a "pdflatex"
+  "Burkman_Paper_03_24_23.aux" 1681813515 5951 1e15b91369ec9443b45d38f2fdae7941 "pdflatex"
+  "Burkman_Paper_03_24_23.bbl" 1681813513 2445 964c56ccae1442702e713f0651aeb3d7 "bibtex Burkman_Paper_03_24_23"
+  "Burkman_Paper_03_24_23.out" 1681813514 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Burkman_Paper_03_24_23.tex" 1681813335 9997 57b72b281d391dbe03696eb5b80e5bd8 ""
   "Introduction.tex" 1681642862 6 c77261a574203eef38a6c38c133cf183 ""
-  "Methods.tex" 1681727410 27189 078bc2159f9347e443baaa0d56222a57 ""
-  "Results.tex" 1681694970 19192 6d070a89be2a23b9724b7ce07d143588 ""
+  "Methods.tex" 1681729344 27189 078bc2159f9347e443baaa0d56222a57 ""
+  "Notes.tex" 1681813507 119 592f57d5b51377960a2387ca07b5cecf ""
+  "Results.tex" 1681729348 19192 6d070a89be2a23b9724b7ce07d143588 ""
   "cas-common.sty" 1655830116 76661 edd5b8a98de28a359bf90630ef49c969 ""
   "thumbnails/cas-email.jpeg" 1655830116 8764 ae276cc9956197082d008c18ae4cbb28 ""
   (generated)

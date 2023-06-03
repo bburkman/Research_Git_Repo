@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  17 APR 2023 05:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  18 APR 2023 05:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1478,16 +1478,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--225
 
  []
 
-[13] (./Burkman_Paper_03_24_23.bbl) [14] (./Burkman_Paper_03_24_23.aux)
+(./Notes.tex) [13] (./Burkman_Paper_03_24_23.bbl) [14]
+(./Burkman_Paper_03_24_23.aux)
 Package rerunfilecheck Info: File `Burkman_Paper_03_24_23.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28685 strings out of 478994
- 535337 string characters out of 5858184
- 1022799 words of memory out of 5000000
- 45450 multiletter control sequences out of 15000+600000
+ 28696 strings out of 478994
+ 535489 string characters out of 5858184
+ 1022855 words of memory out of 5000000
+ 45456 multiletter control sequences out of 15000+600000
  537748 words of font info for 219 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,22n,88p,971b,685s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1507,10 +1508,10 @@ cal/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/local
 xlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on Burkman_Paper_03_24_23.pdf (15 pages, 351876 bytes).
+Output written on Burkman_Paper_03_24_23.pdf (15 pages, 356361 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
