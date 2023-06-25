@@ -1,0 +1,155 @@
+% Analysis of Results
+
+We would like results like in the graphs below, where the machine learning (ML) algorithm nearly perfectly separates the two classes.  A ML algorithm assigns to each sample (feature vector, crash person) a probability that the person needs an ambulance.  The histogram shows the percentage of the dataset in each range of $p$, showing the percentages for the negative class (``Does not need an ambulance'') and the positive class (``Needs an ambulance'').  
+
+On the right, the Receiver Operating Characteristic (ROC) curve, and particularly the area under the curve (AUC), is a metric for how well the model separates the two classes, with $AUC=1.0$ being perfect and $AUC=0.5$ (the dashed line) being just random assignment with no insight.  Having an AUC of 0.996 is amazing.  
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Train_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Train_ROC.pgf}
+	
+\end{tabular}
+
+Unfortunately, our test results do not look quite that nice.  They do not separate the two classes as well, some are clustered to one side or in the middle, and some look more discrete than continuous.
+
+\
+
+\verb|BRFC_Hard_Tomek_0_alpha_0_5_v1_Test|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Test_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Test_ROC.pgf}
+	
+\end{tabular}
+
+\verb|BRFC_Hard_Tomek_0_alpha_balanced_v1_Test|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/BRFC_Hard_Tomek_0_alpha_balanced_v1_Test_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/BRFC_Hard_Tomek_0_alpha_balanced_v1_Test_ROC.pgf}
+	
+\end{tabular}
+
+\verb|KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Test|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Test_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Test_ROC.pgf}
+	
+\end{tabular}
+
+\verb|KBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_v1_Test|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_v1_Test_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/KBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_v1_Test_ROC.pgf}
+	
+\end{tabular}
+
+\verb|LRC_Hard_Tomek_0_alpha_0_5_v1_Test|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/LRC_Hard_Tomek_0_alpha_0_5_v1_Test_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/LRC_Hard_Tomek_0_alpha_0_5_v1_Test_ROC.pgf}
+\end{tabular}
+
+\verb|LRC_Hard_Tomek_0_alpha_balanced_v1_Test|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/LRC_Hard_Tomek_0_alpha_balanced_v1_Test_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/LRC_Hard_Tomek_0_alpha_balanced_v1_Test_ROC.pgf}
+\end{tabular}
+
+
+\verb|OBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_5_gamma_1_2_0_v1|
+
+\noindent\begin{tabular}{@{\hspace{-6pt}}p{4.3in} @{\hspace{-6pt}}p{2.0in}}
+	\vskip 0pt
+	\hfil Raw Model Output
+	
+	\input{../Keras/Images/OBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_5_gamma_1_2_0_v1_Pred_Wide.pgf}	
+&
+	\vskip 0pt
+	\hfil ROC Curve
+	
+	\input{../Keras/Images/OBFC_Hard_Tomek_0_alpha_balanced_gamma_0_0_5_gamma_1_2_0_v1_ROC.pgf}
+\end{tabular}
+
+
+
+%%%
+\begin{comment}
+If we set the discrimination threshold about $0.7$, the model would classify almost all of the samples, both positive and negative class, correctly, with about the same number of false positives (sending an ambulance when one is not needed, negative class samples with $p > 0.7$) and false negatives (not sending an ambulance when one is needed, positive class samples with $p < 0.7$).  If we (as a society) were willing to tolerate more false positives, we could set the discrimination threshold lower, and if budgets were tighter we could increase the $p$ threshold.  
+
+The table below gives the number of true negatives (TN), false positives (FP), false negatives (FN), and true positives (TP) for the 499,496 samples in the test set, along with the precision and recall values, for different discrimination thresholds $p$.  The precision is the proportion of ambulances we sent that were needed, and the recall is the proportion of ambulances needed that we sent.  
+
+$$\text{Precision} = \frac{TP}{FP+TP}, \qquad \text{Recall} = \frac{TP}{FN + TP}$$
+
+\begin{center}
+\begin{tabular}{rrrrrrrrrrrrrr}
+\toprule
+$p$ &   TN &       FP &      FN &      TP &  Precision &   Recall \\
+\midrule
+0.50 &  346,776 &   73,794 &       1 &  78,925 &  0.52 &  1.00       \\
+0.60 &  390,335 &   30,235 &      89 &  78,837 &  0.72 &  1.00  \\
+0.70 & 411,040 &    9,530 &   2,838 &  76,088 &  0.89 &  0.96 \\
+0.80 & 418,739 &    1,831 &  19,174 &  59,752 &  0.97 &  0.76  \\
+0.90 & 420,496 &       74 &  53,736 &  25,190 &  1.00 &  0.32 & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\end{comment}
+%%%
+
+
+
