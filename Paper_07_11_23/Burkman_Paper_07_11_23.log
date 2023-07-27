@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  12 JUL 2023 13:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.6)  26 JUL 2023 03:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1260,81 +1260,88 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 Package hyperref Warning: Ignoring empty anchor on input line 217.
 
-(./Introduction.tex
+(./Henry_07_22_23.tex
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-3.
+1.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [1 <./thumbnails/cas-email.jpeg>]) (./Precision_Total_Marginal.tex [2] [3] [4
-]
-(../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Test_Pred_Wide.pgf)
-(../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Test_ROC.pgf)
+) [1 <./thumbnails/cas-email.jpeg>] [2]
+(../Keras/Images/BRFC_5_Fold_alpha_0_5_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/BRFC_5_Fold_alpha_0_5_Hard_Test_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 376--135
+[][] 
+ []
+
+[3] [4] [5] [6] [7]) (./Introduction.tex) (./Precision_Total_Marginal.tex
+[8] [9] [10] [11]
+(../Keras/Images/BRFC_5_Fold_alpha_0_5_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/BRFC_5_Fold_alpha_0_5_Hard_Test_ROC.pgf)
 Overfull \hbox (16.03403pt too wide) in paragraph at lines 376--196
 [][] 
  []
 
-) (./Analysis_of_Results.tex
-(../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Train_Pred_Wide.pgf)
-(../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Train_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 359--17
-[][] 
- []
-
-[5] (../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Test_Pred_Wide.pgf)
-(../Keras/Images/BRFC_Hard_Tomek_0_alpha_0_5_v1_Test_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 376--45
+) (./Analysis_of_Results.tex [12]
+(../Keras/Images/BRFC_5_Fold_alpha_0_5_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/BRFC_5_Fold_alpha_0_5_Hard_Test_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 376--50
 [][]| 
  []
 
-(../Keras/Images/KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Test_Pred_Wide.pgf)
-(../Keras/Images/KBFC_Hard_Tomek_0_alpha_0_5_gamma_0_0_v1_Test_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 1219--66
+(../Keras/Images/AdaBoost_5_Fold_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/AdaBoost_5_Fold_Hard_Test_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 1258--80
 [][]| 
  []
 
-(../Keras/Images/AdaBoost_Hard_Tomek_0_v1_Test_Pred_Wide.pgf)
-(../Keras/Images/AdaBoost_Hard_Tomek_0_v1_Test_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 1272--88
+(../Keras/Images/AdaBoost_5_Fold_Hard_Test_Transformed_100_Pred_Wide.pgf)
+(../Keras/Images/AdaBoost_5_Fold_Hard_Test_Transformed_100_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 1258--104
 [][]| 
  []
 
-[6]
-(../Keras/Images/AdaBoost_Hard_Tomek_0_v1_Test_Transformed_100_Pred_Wide.pgf)
-(../Keras/Images/AdaBoost_Hard_Tomek_0_v1_Test_Transformed_100_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 1272--106
+[13] (../Keras/Images/AdaBoost_5_Fold_Hard_Test_Transformed_98_Pred_Wide.pgf)
+(../Keras/Images/AdaBoost_5_Fold_Hard_Test_Transformed_98_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 1247--124
 [][]| 
  []
 
-(../Keras/Images/AdaBoost_Hard_Tomek_0_v1_Test_Transformed_98_Pred_Wide.pgf)
-(../Keras/Images/AdaBoost_Hard_Tomek_0_v1_Test_Transformed_98_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 1260--121
+(../Keras/Images/KBFC_5_Fold_alpha_0_5_gamma_0_0_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/KBFC_5_Fold_alpha_0_5_gamma_0_0_Hard_Test_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 1218--149
 [][]| 
  []
 
-(../Keras/Images/Bagging_Hard_Tomek_0_v1_Test_Pred_Wide.pgf)
-(../Keras/Images/Bagging_Hard_Tomek_0_v1_Test_ROC.pgf)
-Overfull \hbox (16.03403pt too wide) in paragraph at lines 351--142
+[14]
+(../Keras/Images/KBFC_5_Fold_alpha_balanced_gamma_0_0_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/KBFC_5_Fold_alpha_balanced_gamma_0_0_Hard_Test_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 1249--172
 [][]| 
  []
 
-[7]) (./Burkman_Paper_07_11_23.bbl
+(../Keras/Images/BalBag_5_Fold_Hard_Test_Pred_Wide.pgf)
+(../Keras/Images/BalBag_5_Fold_Hard_Test_ROC.pgf)
+Overfull \hbox (16.03403pt too wide) in paragraph at lines 351--195
+[][]| 
+ []
+
+) [15] (./Burkman_Paper_07_11_23.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 15.
 
-) [8] (./Burkman_Paper_07_11_23.aux)
+) [16] (./Burkman_Paper_07_11_23.aux)
 Package rerunfilecheck Info: File `Burkman_Paper_07_11_23.out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28469 strings out of 478994
- 528594 string characters out of 5858184
- 1120016 words of memory out of 5000000
- 45299 multiletter control sequences out of 15000+600000
+ 28511 strings out of 478994
+ 529047 string characters out of 5858184
+ 1105760 words of memory out of 5000000
+ 45300 multiletter control sequences out of 15000+600000
  496672 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,13n,88p,1027b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,13n,88p,1027b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{/usr/loca
 l/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}</usr/local/texlive
@@ -1347,10 +1354,10 @@ texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/texli
 ve/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb>
-Output written on Burkman_Paper_07_11_23.pdf (9 pages, 290013 bytes).
+Output written on Burkman_Paper_07_11_23.pdf (17 pages, 337861 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 63 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
